@@ -19,6 +19,7 @@ img {
     display:inherit;
     padding-bottom:10px;
     margin:auto;
+
 }
 
 .postbox {
@@ -193,6 +194,7 @@ h1.panel-title, h2.panel-title, h3.panel-title, h4.panel-title, h5.panel-title, 
 
 .row {
     margin: 0;
+    direction: rtl;
     border-right: 8px solid green;
     padding-right: 20px;
     border-left: 8px solid green;
