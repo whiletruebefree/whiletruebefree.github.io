@@ -6,34 +6,202 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://whiletruebefree.net/2014/12/index.html</loc>
-  <lastmod>2014-12-18</lastmod>
+  <lastmod>2014-12-19</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/2014/index.html</loc>
-  <lastmod>2014-12-18</lastmod>
+  <lastmod>2014-12-19</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/archive.html</loc>
+  <lastmod>2014-12-19</lastmod>
+ </url>
+ <url>
+  <loc>http://whiletruebefree.net/categories/analytics.html</loc>
+  <lastmod>2014-12-19</lastmod>
+ </url>
+ <url>
+  <loc>http://whiletruebefree.net/categories/blg.html</loc>
   <lastmod>2014-12-18</lastmod>
  </url>
  <url>
+  <loc>http://whiletruebefree.net/categories/blog.html</loc>
+  <lastmod>2014-12-18</lastmod>
+ </url>
+ <url>
+  <loc>http://whiletruebefree.net/categories/blogging.html</loc>
+  <lastmod>2014-12-18</lastmod>
+ </url>
+ <url>
+  <loc>http://whiletruebefree.net/categories/cms.html</loc>
+  <lastmod>2014-12-19</lastmod>
+ </url>
+ <url>
+  <loc>http://whiletruebefree.net/categories/disqus.html</loc>
+  <lastmod>2014-12-19</lastmod>
+ </url>
+ <url>
+  <loc>http://whiletruebefree.net/categories/dynamic.html</loc>
+  <lastmod>2014-12-18</lastmod>
+ </url>
+ <url>
+  <loc>http://whiletruebefree.net/categories/github.html</loc>
+  <lastmod>2014-12-19</lastmod>
+ </url>
+ <url>
+  <loc>http://whiletruebefree.net/categories/google.html</loc>
+  <lastmod>2014-12-19</lastmod>
+ </url>
+ <url>
   <loc>http://whiletruebefree.net/categories/index.html</loc>
+  <lastmod>2014-12-19</lastmod>
+ </url>
+ <url>
+  <loc>http://whiletruebefree.net/categories/injection.html</loc>
+  <lastmod>2014-12-19</lastmod>
+ </url>
+ <url>
+  <loc>http://whiletruebefree.net/categories/joomla.html</loc>
+  <lastmod>2014-12-19</lastmod>
+ </url>
+ <url>
+  <loc>http://whiletruebefree.net/categories/nikola.html</loc>
+  <lastmod>2014-12-19</lastmod>
+ </url>
+ <url>
+  <loc>http://whiletruebefree.net/categories/pwy.html</loc>
+  <lastmod>2014-12-18</lastmod>
+ </url>
+ <url>
+  <loc>http://whiletruebefree.net/categories/python.html</loc>
+  <lastmod>2014-12-18</lastmod>
+ </url>
+ <url>
+  <loc>http://whiletruebefree.net/categories/pytwn.html</loc>
+  <lastmod>2014-12-18</lastmod>
+ </url>
+ <url>
+  <loc>http://whiletruebefree.net/categories/sql.html</loc>
+  <lastmod>2014-12-19</lastmod>
+ </url>
+ <url>
+  <loc>http://whiletruebefree.net/categories/static.html</loc>
+  <lastmod>2014-12-18</lastmod>
+ </url>
+ <url>
+  <loc>http://whiletruebefree.net/categories/tesla.html</loc>
+  <lastmod>2014-12-18</lastmod>
+ </url>
+ <url>
+  <loc>http://whiletruebefree.net/categories/wblg.html</loc>
+  <lastmod>2014-12-18</lastmod>
+ </url>
+ <url>
+  <loc>http://whiletruebefree.net/categories/wordpress.html</loc>
+  <lastmod>2014-12-19</lastmod>
+ </url>
+ <url>
+  <loc>http://whiletruebefree.net/categories/yst.html</loc>
   <lastmod>2014-12-18</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/en/2014/12/index.html</loc>
-  <lastmod>2014-12-18</lastmod>
+  <lastmod>2014-12-19</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/en/2014/index.html</loc>
-  <lastmod>2014-12-18</lastmod>
+  <lastmod>2014-12-19</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/en/archive.html</loc>
+  <lastmod>2014-12-19</lastmod>
+ </url>
+ <url>
+  <loc>http://whiletruebefree.net/en/categories/analytics.html</loc>
+  <lastmod>2014-12-19</lastmod>
+ </url>
+ <url>
+  <loc>http://whiletruebefree.net/en/categories/blg.html</loc>
   <lastmod>2014-12-18</lastmod>
  </url>
  <url>
+  <loc>http://whiletruebefree.net/en/categories/blog.html</loc>
+  <lastmod>2014-12-18</lastmod>
+ </url>
+ <url>
+  <loc>http://whiletruebefree.net/en/categories/blogging.html</loc>
+  <lastmod>2014-12-18</lastmod>
+ </url>
+ <url>
+  <loc>http://whiletruebefree.net/en/categories/cms.html</loc>
+  <lastmod>2014-12-19</lastmod>
+ </url>
+ <url>
+  <loc>http://whiletruebefree.net/en/categories/disqus.html</loc>
+  <lastmod>2014-12-19</lastmod>
+ </url>
+ <url>
+  <loc>http://whiletruebefree.net/en/categories/dynamic.html</loc>
+  <lastmod>2014-12-18</lastmod>
+ </url>
+ <url>
+  <loc>http://whiletruebefree.net/en/categories/github.html</loc>
+  <lastmod>2014-12-19</lastmod>
+ </url>
+ <url>
+  <loc>http://whiletruebefree.net/en/categories/google.html</loc>
+  <lastmod>2014-12-19</lastmod>
+ </url>
+ <url>
   <loc>http://whiletruebefree.net/en/categories/index.html</loc>
+  <lastmod>2014-12-19</lastmod>
+ </url>
+ <url>
+  <loc>http://whiletruebefree.net/en/categories/injection.html</loc>
+  <lastmod>2014-12-19</lastmod>
+ </url>
+ <url>
+  <loc>http://whiletruebefree.net/en/categories/joomla.html</loc>
+  <lastmod>2014-12-19</lastmod>
+ </url>
+ <url>
+  <loc>http://whiletruebefree.net/en/categories/nikola.html</loc>
+  <lastmod>2014-12-19</lastmod>
+ </url>
+ <url>
+  <loc>http://whiletruebefree.net/en/categories/pwy.html</loc>
+  <lastmod>2014-12-18</lastmod>
+ </url>
+ <url>
+  <loc>http://whiletruebefree.net/en/categories/python.html</loc>
+  <lastmod>2014-12-18</lastmod>
+ </url>
+ <url>
+  <loc>http://whiletruebefree.net/en/categories/pytwn.html</loc>
+  <lastmod>2014-12-18</lastmod>
+ </url>
+ <url>
+  <loc>http://whiletruebefree.net/en/categories/sql.html</loc>
+  <lastmod>2014-12-19</lastmod>
+ </url>
+ <url>
+  <loc>http://whiletruebefree.net/en/categories/static.html</loc>
+  <lastmod>2014-12-18</lastmod>
+ </url>
+ <url>
+  <loc>http://whiletruebefree.net/en/categories/tesla.html</loc>
+  <lastmod>2014-12-18</lastmod>
+ </url>
+ <url>
+  <loc>http://whiletruebefree.net/en/categories/wblg.html</loc>
+  <lastmod>2014-12-18</lastmod>
+ </url>
+ <url>
+  <loc>http://whiletruebefree.net/en/categories/wordpress.html</loc>
+  <lastmod>2014-12-19</lastmod>
+ </url>
+ <url>
+  <loc>http://whiletruebefree.net/en/categories/yst.html</loc>
   <lastmod>2014-12-18</lastmod>
  </url>
  <url>
@@ -42,14 +210,22 @@
  </url>
  <url>
   <loc>http://whiletruebefree.net/en/galleries/index.html</loc>
-  <lastmod>2014-12-18</lastmod>
+  <lastmod>2014-12-19</lastmod>
+ </url>
+ <url>
+  <loc>http://whiletruebefree.net/en/galleries/titleimages/index.html</loc>
+  <lastmod>2014-12-19</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/en/index.html</loc>
-  <lastmod>2014-12-18</lastmod>
+  <lastmod>2014-12-19</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/en/posts/1_start_point.html</loc>
+  <lastmod>2014-12-19</lastmod>
+ </url>
+ <url>
+  <loc>http://whiletruebefree.net/en/posts/2_nikola_blogging.html</loc>
   <lastmod>2014-12-18</lastmod>
  </url>
  <url>
@@ -58,18 +234,34 @@
  </url>
  <url>
   <loc>http://whiletruebefree.net/galleries/index.html</loc>
-  <lastmod>2014-12-18</lastmod>
+  <lastmod>2014-12-19</lastmod>
+ </url>
+ <url>
+  <loc>http://whiletruebefree.net/galleries/titleimages/index.html</loc>
+  <lastmod>2014-12-19</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/index.html</loc>
-  <lastmod>2014-12-18</lastmod>
+  <lastmod>2014-12-19</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/listings/index.html</loc>
-  <lastmod>2014-12-18</lastmod>
+  <lastmod>2014-12-19</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/posts/1_start_point.html</loc>
-  <lastmod>2014-12-18</lastmod>
+  <lastmod>2014-12-19</lastmod>
+ </url>
+ <url>
+  <loc>http://whiletruebefree.net/posts/2_nikola_blogging.html</loc>
+  <lastmod>2014-12-19</lastmod>
+ </url>
+ <url>
+  <loc>http://whiletruebefree.net/posts/2_nikola_blogging_platform.html</loc>
+  <lastmod>2014-12-19</lastmod>
+ </url>
+ <url>
+  <loc>http://whiletruebefree.net/posts/test.html</loc>
+  <lastmod>2014-12-19</lastmod>
  </url>
 </urlset>
