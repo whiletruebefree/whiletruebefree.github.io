@@ -248,7 +248,9 @@ pre.address {
 
 pre.literal-block, pre.doctest-block, pre.math, pre.code {
   margin-left: 2em ;
+  direction:ltr;
   margin-right: 2em }
+
 
 pre.code .ln { color: grey; } /* line numbers */
 pre.code, code { background-color: #eeeeee }

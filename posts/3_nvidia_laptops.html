@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="fa">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>I , Linux and NVIDIA | While(True) BeFree();</title>
+
+    
+            <link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="../assets/css/rst.css" rel="stylesheet" type="text/css">
+        <link href="../assets/css/code.css" rel="stylesheet" type="text/css">
+        <link href="../assets/css/colorbox.css" rel="stylesheet" type="text/css">
+
+        <link href="../assets/css/theme.rtl.css" rel="stylesheet" type="text/css">
+
+    
+
+      <link rel="canonical" href="http://whiletruebefree.net/posts/3_nvidia_laptops.html">
+
+
+
+
+    
+        <!--[if lt IE 9]><script src="../assets/js/html5.js"></script><![endif]-->
+
+    <script>  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');  ga('create', 'UA-57812635-1', 'auto');  ga('send', 'pageview');</script>
+
+
+    
+
+    <meta name="author" content="صادق صولتی">
+        <link rel="prev" href="2_nikola_blogging.html" title="این بلاگ چگونه ساخته شده؟" type="text/html">
+    
+    <meta property="og:site_name" content="While(True) BeFree();">
+    <meta property="og:title" content="I , Linux and NVIDIA">
+    <meta property="og:url" content="http://whiletruebefree.net/posts/3_nvidia_laptops.html">
+    <meta property="og:description" content="من یک لپتاپ Lenovo Z510 دارم. زمانی که خریدمش روش سیستم عامل نبود. یک دیسک ubuntu پیدا کردم و روش ubuntu 14.04 نصب کردم. همه چیز خوب کار می کرد به جز
+کارت شبکه بیسیم. ارتباطم دایم قطع و وصل می شد.با خ">
+    <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2014-12-19T22:10:48+03:30">
+           <meta property="article:tag" content="CPU">
+           <meta property="article:tag" content="Freq">
+           <meta property="article:tag" content="Interference">
+           <meta property="article:tag" content="bumblebee">
+           <meta property="article:tag" content="cuda">
+           <meta property="article:tag" content="driver">
+           <meta property="article:tag" content="graphic">
+           <meta property="article:tag" content="haswell">
+           <meta property="article:tag" content="intel">
+           <meta property="article:tag" content="laptops">
+           <meta property="article:tag" content="lenovo">
+           <meta property="article:tag" content="libgl">
+           <meta property="article:tag" content="linux">
+           <meta property="article:tag" content="nouveau">
+           <meta property="article:tag" content="nvidia">
+           <meta property="article:tag" content="optimus">
+           <meta property="article:tag" content="ubuntu">
+           <meta property="article:tag" content="z510">
+           <meta property="article:tag" content="درایور">
+
+    
+
+    
+
+
+
+</head>
+<body>
+<a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+
+<!-- Menubar -->
+
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+<!-- This keeps the margins nice -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://whiletruebefree.net/">
+
+                <span id="blog-title">While(True) BeFree();</span>
+            </a>
+        </div>
+<!-- /.navbar-header -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                
+                <li>
+<a href="../archive.html">آرشیو</a>
+                </li>
+<li>
+<a href="../categories/index.html">برچسب‌ها</a>
+
+                
+            </li>
+</ul>
+                
+	<!-- Custom search with Google-->
+	<form id="search" action="//www.google.com/search" method="get" class="navbar-form pull-left">
+	<input type="hidden" name="q" value="site:http://whiletruebefree.net/">
+	<input type="text" name="q" maxlength="255" results="0" placeholder="Search">
+	</form>
+ 	<!-- End of custom search -->
+	
+
+            <ul class="nav navbar-nav navbar-right">
+                
+                    <li>
+            </li>
+<li><a href="../en/index.html" rel="alternate" hreflang="en">English</a></li>
+
+                
+                
+            </ul>
+        </div>
+<!-- /.navbar-collapse -->
+    </div>
+<!-- /.container -->
+</nav>
+
+<!-- End of Menubar -->
+
+<div class="container" id="content">
+    <div class="body-content">
+        <!--Body content-->
+        <div class="row">
+            
+            
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article">
+    
+    <header>
+        
+    <h1 class="p-name entry-title" itemprop="headline name"><a href="#" class="u-url">I , Linux and NVIDIA</a></h1>
+
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">صادق صولتی</span></p>
+            <p class="dateline"><a href="#" rel="bookmark"><time class="published dt-published" datetime="2014-12-19T22:10:48+03:30" itemprop="datePublished" title="2014-12-19 22:10">2014-12-19 22:10</time></a></p>
+                <p class="commentline">
+        
+    <a href="3_nvidia_laptops.html#disqus_thread" data-disqus-identifier="cache/posts/3_IandLinuxandNvidia.html">Comments</a>
+
+
+            
+
+        </p>
+</div>
+        
+        <div class="metadata posttranslations translations">
+            <h3 class="posttranslations-intro">همچنین قابل دسترس از:</h3>
+        </div>
+
+    </header>
+
+    <div class="e-content entry-content" itemprop="articleBody text">
+    <div>
+<p>من یک لپتاپ Lenovo Z510 دارم. زمانی که خریدمش روش سیستم عامل نبود. یک دیسک ubuntu پیدا کردم و روش ubuntu 14.04 نصب کردم. همه چیز خوب کار می کرد به جز
+کارت شبکه بیسیم. ارتباطم دایم قطع و وصل می شد.با خودم فکر کردم شاید مشکل از درایور های لینوکس،بالاخره این لپ تاپ جدیده شاید چیپی که توش استفاده هنوز به صورت کامل
+پشتیبانی نمیشه. رفتم به سراغ ویندوز و یک ویندوز ۸ روش نصب کردم. مشکل کارت شبکه وایرلس حل نشد اما یه چیزی نظرم رو به خودش جلب کرد. لپ تاپ من تو ویندوز ۳ ساعت ۴۰  دقیقه رو باتری کار می کرد اما تو لینوکس ۲ ساعت و ۴۰ دقیقه. اینجا بود که یاد این عکس معروف افتادم. برای اینکه بفهمید چگونه این مشکل رو حل کنیم به ادامه مطلب برد.</p>
+<img alt="/galleries/titleimages/linus-nvidia.png" src="../galleries/titleimages/linus-nvidia.png">
+<!-- TEASER_END -->
+<p>زمانی که داشتم لپ تاپ می خریدم برام خیلی مهم بود که CPU حتما از نسل چهارم یعنی Haswell باشه. اما چرا ؟ چون می دونستم که در این سری یک کارت گرافیک مستقل بر روی خود
+CPU قرار داره. قطعا چیز خوبی بود یک کارت گرافیک برای انجام کارهای سبک تر و یک کارت گرافیک برای کارهای جدی تر.
+بعد از کمی تحقیق متوجه شدم که nividia یک تکنولوژی داره به نام optimus این تکنولوژی کارش اینه، زمانی که شما در حال کارهایی هستید که پردازش گرافیکی سنگین نیاز نداره
+(این شامل تماشای فیلم Full HD هم میشه) کارت گرافیک دوم تقریبا خاموش میشه. زمانی که نیاز به یک پردازش سنگین به وجود میاد مثل اجرای بازی و ... کارت گرافیک دوم پردازش رو به عهده می گیره و خروجی رو برای نمایش به کارت گرافیک داخل CPU می فرسته . از این چی میشه فهمید؟ بله صفحه نمایش مستقیم به کارت داخل CPU وصل شده است. این یعنی این
+که میشه کارت گرافیک NVIDIA رو به صورت کامل خاموش کرد. اما چطوری؟؟؟</p>
+<p>در زمانهای نه چندان دور NVIDIA برای لینوکس درایور نداشت و علاقه هم به ارایه اون نداشت. توی همین درگیری ها بود که خالق لینوکس، حماسه فوق رو آفرید. لینوکسی ها خودشون
+دست به کار شدن و با استفاده از مهندسی معکوس یک درایور نوشتند به نام nouveau. این همون درایوری که به صورت پیشفرض در ubuntu وجود داره. این درایور با همه ی مزیت
+هاش چند تا ایراد داره:</p>
+<ul class="simple">
+<li>چیزی شبیه به optimus توش پیاده نشده یعنی این که کارت گرافیک NVIDIA شما همیشه روشنه و دقیقا به خاطر همینه که باتری من یک ساعت کمتر عمر می کنه.</li>
+<li>اگر بخواهید از CUDA استفاده کنید مجبورید درایور NVIDIA رو نصب کنید که  اتفاقا اونهم optimus رو تو خودش نداره.</li>
+</ul>
+<p>حالا دو تا انتخاب داشتم برگردم به ویندوز و از سیستم آجریش لذت ببرم یا اینکه رو ubuntu بمونم. انتخاب من ubuntu بود. اما با این انتخاب مجبور بودم یک انتخاب دیگه هم انجام
+بدم. بین قابلیت استفاده از CUDA و عمر باتری.در مورد من هم عمر باتری برام مهم بود و هم می خواستم از CUDA استفاده کنم. به این نتیجه رسیدم که تسلیم نشم و حقم رو از NVIDIA بگیرم.</p>
+<p>برای گرفتن این حق نیاز به یک نقشه حساب شده داشتم که باید تو چندین مرحله انجام میشد.
+اولین قدم رو برای خودم مشخص کردم. درایور nouveau رو غیر فعال کنم و تلاش کنم که درایور اینتل به تنهایی مسئولیت رو به عهده بگیره.</p>
+<p><strong>مهم : قبل از اینکه به خوندن ادامه بدید. باید بگم یک پروژه هست به اسم</strong> <a class="reference external" href="http://bumblebee-project.org/">bumblebee</a> <strong>که تلاش کرده optimus رو تو لینوکس راه بندازه، من تلاش نکردم ازش استفاده کنم. می
+خواستم خودم این کار رو انجام بدم تا بیشتر یاد بگیرم. اما شما اگر دوست داشتید می تونید ازش استفاده کنید. من فقط از یک قسمت این پروژه استفاده می کنم که جلوتر خواهیم
+دید.</strong></p>
+<p><strong>مهم : دستورالعملی که اینجا می نویسم کاملا دقیق نیست. اگر شما ازش استفاده کردید همه مسئولیتش پای خودتونه. البته اگر مشکلی بود می تونم بهتون کمک کنم</strong>
+<strong>خواهش می کنم اگر خواستید از این روش استفاده کنید حتما پست رو یک بار تا انتها بخونید تا بدونید با چه چیزهایی قراره مواجه بشید</strong>
+<strong>زمانی که این مراحل را انجام می دهید نمی تونید از DESKTOP خود استفاده کنید، پس حتما یک سیستم اماده به کار متصل به اینترنت کنار دستتون باشه تا در صورت لزوم ازش استفاده کنید.</strong>
+<strong>زمانی این کار رو انجام بدید که وقت کافی برای رفع مشکلات احتمالی داشته باشید.</strong></p>
+<p><strong>شاید این بهترین راه برای رسیدن به هدف های من نباشه اما راهی که من انتخابش کردم و باهاش راحت ترم</strong></p>
+<p>برای این کار خط زیر رو به blacklist.conf اضافه کردم. این فایل شامل نام ماژول هایی می شوند که نمی خواهیم به صورت پیشفرض در زمان بوت به کرنل اضافه شوند.</p>
+<p>مرحله اول:</p>
+<pre class="literal-block">
+sudo sh -c 'echo "blacklist nouveau" &gt;&gt; /etc/modprobe.d/blacklist.conf'
+</pre>
+<p>کلیدهای زیر را فشار دهید تا به یکی از کنسول ها وصل شوید(حواستون به کلید FN باشه.برای بازگشت به جای F4 از F7 استفاده کنید):</p>
+<pre class="literal-block">
+Alt+ctl+F4
+</pre>
+<p>در اینجا نام کاربری و کلمه عبور را وارد کنید و وارد سیستم شوید. پس از ورود دستور زیر را وارد کنید:</p>
+<pre class="literal-block">
+sudo service lightdm stop
+</pre>
+<p>دستور فوق <a class="reference external" href="https://wiki.ubuntu.com/LightDM">lightDM</a> را غیرفعال می کند.سپس نوبت به ماژول nouveau می رسد که از کرنل جدا شود:</p>
+<pre class="literal-block">
+sudo rmmod nouveau
+</pre>
+<p><strong>از اینجا به بعد وارد قسمت خطرناک داستان می شیم اگر تا به الان به توصیه بالا گوش نکردید و تا آخر متن رو نخوندید الان این کار رو بکنید</strong></p>
+<p>در اینجا باید Xserver رو به صورت کامل پاک کنیم اما چرا؟ جواب این سوال برمی گدره به یک کتابخانه(shared library) به نام libGl.so. کارت گرافیک های مختلف، درایور های مختلف دارند و نحوه ارسال دستورات به اونها کاملا متفاوت باشه (برای مثال دستور کشیدن یک خط صاف در قسمتی از صفحه نمایش). حالا اگر شما می خواهید برنامه ای بنویسید که با کارت گرافیک در تعامل باشه و بخواید روی همه کارت ها هم کار بکنه نیاز به یک واسط وجود داره. این واسط همون libGL هست. هر تولید کننده کارت گرافیکی یک کتابخانه به اسم LibGl نیز در درایورهاش قرار می ده.در مورد ما چون داشتیم از nouveau استفاده می کردیم پس احتمالا libGL مربوط به اون در سیستم نصب شده است. در این مرحله Xserver رو به صورت کامل حذف می کنیم سپس اون رو به همراه درایور اینتل مجددا بر روی سیستم نصب می کنیم تا اگر اثری از nouveau در Xserver باقی مونده پاک بشه.</p>
+<p>مرحله دوم:</p>
+<pre class="literal-block">
+sudo apt-get remove --purge xserver-xorg
+sudo rm -fr /usr/lib/xorg/modules*
+sudo apt-get install xserver-xorg
+sudo apt-get install xserver-xorg-video-intel
+sudo dpkg-reconfigure xserver-xorg
+</pre>
+<p>مرحله سوم:در مورد من به دلیل اینکه از قبل خیلی سیستم رو دست کاری کرده بودم سیستم نتونست libGl رو پیدا کنه. با یک دستور find مسیر کتابخانه را پیدا کردم و متوجه شدم مربوط به پکیج libgl1-mesa-glx میشه اگر این پکیج رو نصب کنید ضرر نداره.دستور اول رو اجرا کنید اگر خروجی شامل libGL.so.1 بود برید به مرحله بعد و اگر نبود با دستور بعدی نصبش کنید و با اخرین دستور مطمئن شوید که نصب شده است:</p>
+<pre class="literal-block">
+sudo ldconfig -v | grep -i libGl.so
+sudo apt-get install --reinstall libgl1-mesa-glx
+sudo ldconfig -v | grep -i libGl.so
+</pre>
+<p>تقریبا داریم به انتهای قدم اول نزدیک می شیم سیستم عامل را یک بار ریبوت کنید و امیدوار باشید که همه چیز خوب پیش بره و به بتونید به دسکتاپ خودتون وصل بشید.</p>
+<p>اگر همه چیز خوب پیش رفت و شما موفق شدید به دسکتاپ وصل بشید. یک ترمینال باز کنید وبا استفاده از دستور زیر مطمئن شوید ماژول nouveau به کرنل متصل نشده است:</p>
+<pre class="literal-block">
+lsmod | grep -i nouveau
+</pre>
+<p>اما اگر شما موفق نشدید به دسکتاپ خودتون وصل بشین نگران نباشید.اینجا آخر دنیا نیست دستورات زیر را اجرا کنید.:</p>
+<pre class="literal-block">
+Alt+ctl+F4
+export DISPLAY=:0
+glxinfo
+</pre>
+<p>با خط اول که از قبل آشنا شدیم. دستور دوم ما رو به مانیتور اصلی متصل می کنه و خط سوم اطلاعاتی درمورد libGL به ما میده.اگر خطایی در خروجی این دستور نبود. از دستور lsmod استفاده کنید.دنبال درایور video بگردید و در ستون مقابلش ببینید توسط کدام ماژول داره استفاده میشه.</p>
+<p>قدم اول ما تکمیل شد. اما هنوز نتونستیم مشکل روشن بودن کارت NVIDIA رو حل کنیم. در ابتدای این پست اشاره کردم به یک پروژه به نام bumblebee.تو دل این پروژه یک ماژول کرنل (Kernel Module) وجود داره به اسم bbswitch. وظیفه این ماژول خاموش و روشن کردن کارت NVIDIA است. روش نصب و استفاده ازش رو در پایین اوردم:</p>
+<pre class="literal-block">
+sudo apt-get install bumblebee
+cat /proc/acpi/bbswitch
+(sample output: 0000:07:00.0 OFF)
+sudo tee /proc/acpi/bbswitch &lt;&lt;&lt; ON
+sudo tee /proc/acpi/bbswitch &lt;&lt;&lt; OFF
+</pre>
+<p>در یک پست دیگر درباره راه اندازی  CUDA توضیح می دم.</p>
+<p><strong>اما یه چیزی هست که هنوز مشخص نشده. مشکل کارت شبکه بی سیم چی بود؟</strong>
+<strong>خوب،مشکل تعداد زیادی Access Point با فاصله بسیار نزدیک به من بود.که باعث تداخل فرکانسی می شد.همه این Access Point ها بر روی فرکانس 2.4 GHZ کار می کردند.</strong>
+<strong>من اسون ترین راه حل رو ترجیح دادم خریدن یک Access Point دو بانده با فرکانس های 2.4 و 5 GHz.</strong></p>
+</div>
+    </div>
+    <aside class="postpromonav">
+    <nav>
+    
+        <ul itemprop="keywords" class="tags">
+           <li><a class="tag p-category" href="../categories/cpu.html" rel="tag">CPU</a></li>
+           <li><a class="tag p-category" href="../categories/freq.html" rel="tag">Freq</a></li>
+           <li><a class="tag p-category" href="../categories/interference.html" rel="tag">Interference</a></li>
+           <li><a class="tag p-category" href="../categories/bumblebee.html" rel="tag">bumblebee</a></li>
+           <li><a class="tag p-category" href="../categories/cuda.html" rel="tag">cuda</a></li>
+           <li><a class="tag p-category" href="../categories/driver.html" rel="tag">driver</a></li>
+           <li><a class="tag p-category" href="../categories/graphic.html" rel="tag">graphic</a></li>
+           <li><a class="tag p-category" href="../categories/haswell.html" rel="tag">haswell</a></li>
+           <li><a class="tag p-category" href="../categories/intel.html" rel="tag">intel</a></li>
+           <li><a class="tag p-category" href="../categories/laptops.html" rel="tag">laptops</a></li>
+           <li><a class="tag p-category" href="../categories/lenovo.html" rel="tag">lenovo</a></li>
+           <li><a class="tag p-category" href="../categories/libgl.html" rel="tag">libgl</a></li>
+           <li><a class="tag p-category" href="../categories/linux.html" rel="tag">linux</a></li>
+           <li><a class="tag p-category" href="../categories/nouveau.html" rel="tag">nouveau</a></li>
+           <li><a class="tag p-category" href="../categories/nvidia.html" rel="tag">nvidia</a></li>
+           <li><a class="tag p-category" href="../categories/optimus.html" rel="tag">optimus</a></li>
+           <li><a class="tag p-category" href="../categories/ubuntu.html" rel="tag">ubuntu</a></li>
+           <li><a class="tag p-category" href="../categories/z510.html" rel="tag">z510</a></li>
+           <li><a class="tag p-category" href="../categories/drywr.html" rel="tag">درایور</a></li>
+        </ul>
+
+    
+        <ul class="pager">
+            <li class="previous">
+                <a href="2_nikola_blogging.html" rel="prev" title="این بلاگ چگونه ساخته شده؟">ارسال پیشین</a>
+            </li>
+        </ul>
+
+    </nav>
+    </aside>
+        <section class="comments">
+        <h2>دیدگاه‌‌‌ها</h2>
+        
+        
+        <div id="disqus_thread"></div>
+        <script>
+        var disqus_shortname ="whiletruebefree",
+            disqus_url="http://whiletruebefree.net/posts/3_nvidia_laptops.html",
+        disqus_title="I , Linux and NVIDIA",
+        disqus_identifier="cache/posts/3_IandLinuxandNvidia.html",
+        disqus_config = function () {
+            this.language = "fa";
+        };
+        (function() {
+            var dsq = document.createElement('script'); dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+</noscript>
+    <a href="//disqus.com" class="dsq-brlink" rel="nofollow">Comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+        </section>
+    
+
+</article>
+
+        
+       <script>var disqus_shortname="whiletruebefree";(function(){var a=document.createElement("script");a.async=true;a.src="//"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script>
+
+
+
+        </div>
+        <!--End of body content-->
+
+        <footer>
+            Contents © 2014         <a href="mailto:whiletruebefree@gmail.com">Sadegh Solati</a> - Powered by         <a href="http://getnikola.com" rel="nofollow">Nikola</a>         
+            
+        </footer>
+    </div>
+</div>
+
+
+            <script src="../assets/js/jquery.min.js"></script>
+            <script src="../assets/js/bootstrap.min.js"></script>
+            <script src="../assets/js/moment-with-locales.min.js"></script>
+            <script src="../assets/js/fancydates.js"></script>
+        <script src="../assets/js/jquery.colorbox-min.js"></script>
+        <script src="../assets/js/colorbox-i18n/jquery.colorbox-fa.js"></script>
+    
+<!-- Social buttons -->
+<div id="addthisbox" class="addthis_toolbox addthis_peekaboo_style addthis_default_style addthis_label_style addthis_32x32_style">
+<a class="addthis_button_more">Share</a>
+<ul>
+<li>
+<a class="addthis_button_facebook"></a>
+</li>
+<li>
+<a class="addthis_button_google_plusone_share"></a>
+</li>
+<li>
+<a class="addthis_button_linkedin"></a>
+</li>
+<li>
+<a class="addthis_button_twitter"></a>
+</li>
+</ul>
+</div>
+<script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4f7088a56bb93798"></script>
+<!-- End of social buttons -->
+
+
+    <script>jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script>
+    <!-- fancy dates -->
+    <script>
+    moment.locale("fa");
+    fancydates(0, "YYYY-MM-DD HH:mm");
+    </script>
+    <!-- end fancy dates -->
+    
+
+
+</body>
+</html>
