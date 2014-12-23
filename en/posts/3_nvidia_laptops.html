@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# ">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>I , Linux and NVIDIA | While(True) BeFree();</title>
+
+    
+            <link href="../../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="../../assets/css/rst.css" rel="stylesheet" type="text/css">
+        <link href="../../assets/css/code.css" rel="stylesheet" type="text/css">
+        <link href="../../assets/css/colorbox.css" rel="stylesheet" type="text/css">
+
+        <link href="../../assets/css/theme.css" rel="stylesheet" type="text/css">
+
+    
+
+      <link rel="canonical" href="http://whiletruebefree.net/en/posts/3_nvidia_laptops.html">
+
+
+
+
+    
+        <!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]-->
+
+    <script>  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');  ga('create', 'UA-57812635-1', 'auto');  ga('send', 'pageview');</script>
+
+
+    
+
+    <meta name="author" content="Sadegh Solati">
+        <link rel="prev" href="2_nikola_blogging.html" title="How is this Blog  Made?" type="text/html">
+    
+    <meta property="og:site_name" content="While(True) BeFree();">
+    <meta property="og:title" content="I , Linux and NVIDIA">
+    <meta property="og:url" content="http://whiletruebefree.net/en/posts/3_nvidia_laptops.html">
+    <meta property="og:description" content="I have a Lenovo Z510 laptop. When i bought it there wasn't any OS on it then i took an ubuntu Disk and installed Ubuntu 14.04 on it.everything was working well unless My wifi. i was losing My connecti">
+    <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2014-12-19T22:10:48+03:30">
+           <meta property="article:tag" content="CPU">
+           <meta property="article:tag" content="Freq">
+           <meta property="article:tag" content="Interference">
+           <meta property="article:tag" content="bumblebee">
+           <meta property="article:tag" content="cuda">
+           <meta property="article:tag" content="driver">
+           <meta property="article:tag" content="graphic">
+           <meta property="article:tag" content="haswell">
+           <meta property="article:tag" content="intel">
+           <meta property="article:tag" content="laptops">
+           <meta property="article:tag" content="lenovo">
+           <meta property="article:tag" content="libgl">
+           <meta property="article:tag" content="linux">
+           <meta property="article:tag" content="nouveau">
+           <meta property="article:tag" content="nvidia">
+           <meta property="article:tag" content="optimus">
+           <meta property="article:tag" content="ubuntu">
+           <meta property="article:tag" content="z510">
+
+    
+
+    
+                <link rel="alternate" hreflang="fa" href="../../posts/3_nvidia_laptops.html">
+
+
+
+</head>
+<body>
+<a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+
+<!-- Menubar -->
+
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+<!-- This keeps the margins nice -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://whiletruebefree.net/">
+
+                <span id="blog-title">While(True) BeFree();</span>
+            </a>
+        </div>
+<!-- /.navbar-header -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                
+                <li>
+<a href="../archive.html">Archive</a>
+                </li>
+<li>
+<a href="../categories/index.html">Tags</a>
+
+                
+            </li>
+</ul>
+                
+	<!-- Custom search with Google-->
+	<form id="search" action="//www.google.com/search" method="get" class="navbar-form pull-left">
+	<input type="hidden" name="q" value="site:http://whiletruebefree.net/">
+	<input type="text" name="q" maxlength="255" results="0" placeholder="Search">
+	</form>
+ 	<!-- End of custom search -->
+	
+
+            <ul class="nav navbar-nav navbar-right">
+                
+                    <li>
+            </li>
+<li><a href="../../index.html" rel="alternate" hreflang="fa">فارسی</a></li>
+
+                
+                
+            </ul>
+        </div>
+<!-- /.navbar-collapse -->
+    </div>
+<!-- /.container -->
+</nav>
+
+<!-- End of Menubar -->
+
+<div class="container" id="content">
+    <div class="body-content">
+        <!--Body content-->
+        <div class="row">
+            
+            
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article">
+    
+    <header>
+        
+    <h1 class="p-name entry-title" itemprop="headline name"><a href="#" class="u-url">I , Linux and NVIDIA</a></h1>
+
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">Sadegh Solati</span></p>
+            <p class="dateline"><a href="#" rel="bookmark"><time class="published dt-published" datetime="2014-12-19T22:10:48+03:30" itemprop="datePublished" title="2014-12-19 22:10">2014-12-19 22:10</time></a></p>
+                <p class="commentline">
+        
+    <a href="3_nvidia_laptops.html#disqus_thread" data-disqus-identifier="cache/posts/3_IandLinuxandNvidia.html">Comments</a>
+
+
+            
+
+        </p>
+</div>
+        
+        <div class="metadata posttranslations translations">
+            <h3 class="posttranslations-intro">Also available in:</h3>
+                <p><a href="../../posts/3_nvidia_laptops.html" rel="alternate" hreflang="fa">فارسی</a></p>
+        </div>
+
+    </header>
+
+    <div class="e-content entry-content" itemprop="articleBody text">
+    <div>
+<p>I have a Lenovo Z510 laptop. When i bought it there wasn't any OS on it then i took an ubuntu Disk and installed Ubuntu 14.04 on it.everything was working well unless My wifi. i was losing My connection suddenly and it was tending to happen very often. i was wonering with myself maybe there is something wrong with linux driver. i was wondering with my self maybe this is a new laptop maybe linux driver is not supporting the chip which is used in it completely. I switched to Windows 8.the problem existed on Windows too but something caught my attention.My battery life on windows was 3 hours and 40 minutes but on Linux it was 2 hours and 40 minutes. at that moment the following picture came to my mind. For getting how to increase your  battery life in linux click on read more.</p>
+<img alt="/galleries/titleimages/linus-nvidia.png" src="../../galleries/titleimages/linus-nvidia.png">
+<!-- TEASER_END -->
+<p>When i was searching for a laptop which meets my need it was very important to me that its CPU be intel core i7 4th generation or Haswell. but Why? because i knew that there is completely independent GPU on it (Called integrated GPU). it would be a good thing. One GPU for Doing light load process like web surfing or even watching FullHD movies. And another powerful GPU for doing serious process like video encoding,playing 3D Games and so on.
+i did a short reattachment and got that there is a new technology on Nvidia GPU called Optimus. What is Optimus and why is it made? Optimus is made for saving power on laptops.When you are not doing high load process your discrete power hungry GPU (NVIDIA) will become turned OFF and Integrated GPU takes control and execute the process. when there is a need for fast and huge graphical process Turned OFF GPU will be powered on and execute the process and send the result for displaying to the Integrated GPU. we can get from the relation between Integrated and Discrete GPU, That The Display is connected to the Integrated One. Because Discrete one is sending it's result to integrated one for displaying.it's a good news. it means we can turn the discrete GPU off completey. but How??</p>
+<p>some years ago linux doesn't have any driver for NVIDIA. there was a war between Linux and Nvidia and during that war the creator of Linux made the above scene. Linux Guys started working to Write Driver For Nvidia by using Reverse Engineering methods.They did it and made a driver called nouveau.
+this is the same driver which is installed on unbunt by default.</p>
+<dl class="docutils">
+<dt>along all of its benefits nouveau is not still complete :</dt>
+<dd>
+<ul class="first last simple">
+<li>there is nothing implented like Optimus in it</li>
+<li>if you you want to use cuda like me,it doesn't support CUDA. (in order to use CUDA you have to install Nvidia Driver which it also doesn't support optimus ).</li>
+</ul>
+</dd>
+</dl>
+<p>I was made to make choice. first one was returning to windows and enjoy it's tile. second one was staying on ubuntu. I chose staying on ubuntu but this choice puts another two choices in front of me. i had to choose between battery life or using CUDA. it wasn't fair at all. i needed both of them. then I decided to not giving up and get my rights from NVIDIA.</p>
+<p>for getting my rights i needed a plan which should be done in several steps.</p>
+<p>I defined the first steps as follow. Disabling nouveau Driver and trying to make Intel Driver taking the control.</p>
+<p><strong>Warn : before you start reading rest of the post i should say there is a project named</strong> <a class="reference external" href="http://bumblebee-project.org/">bumblebee</a> <strong>which tries to implement optimus in Linux. I didn't try it myself. I want to do it manually for Learning more. you can use it if you want. I used a part of this project,that we will see further.</strong></p>
+<p><strong>Warn: the Instruction i am writing here is not completely accurate. If you used it you are doing it on your own responsibility.Of curse you can contact me if there was something wrong. I will help you if I can.</strong></p>
+<p><strong>If your are still going to use this Instruction Please read it one time until the , to get what you are going to face with.</strong>
+<strong>when you are doing this instruction you can not use your current Desktop, Then please have another computer ready to use and connected to the internet for use it to solving the problems if something went wrong.</strong></p>
+<p><strong>when Do this that you have enough time for solving probable problems.</strong>
+<strong>maybe this is not the best solution for this problem but is the one i chose and if feel more comfort with it</strong></p>
+<p>Ok lets Start</p>
+<p>we have to add a new line to blacklist.conf .This file contains name of the modules that we don't want to get started during the start up.</p>
+<p>First Step:</p>
+<pre class="literal-block">
+sudo sh -c 'echo "blacklist nouveau" &gt;&gt; /etc/modprobe.d/blacklist.conf'
+</pre>
+<p>press the following Keys to attach to a virtual terminal (don't forget Fn key, for going back to your desktop use F7):</p>
+<pre class="literal-block">
+Alt+ctl+F4
+</pre>
+<p>Enter your username and password here. after you logged in enter the following command:</p>
+<pre class="literal-block">
+sudo service lightdm stop
+</pre>
+<p>above command will stop _lightDM. then it's time to remove nouveau module from the</p>
+<pre class="literal-block">
+sudo rmmod nouveau
+</pre>
+<p>** from this section we enter the dangerous part of the process, if you didn't pay attention to previous warnings,please read this post until end one time**</p>
+<p>in this step we have to unistall Xserver Completely. a shared library is installed with xserver which is name libGl.so. Different GPUs have Different Drivers. there also different ways for sending commands to this driver(commands like draw a straight line ). if you were a programmer it wasn't possible for you to implment all of the methods for communicating with GPUs. for solving this problem openGL was made(it's library is called libGL).
+every GPU vendor Puts a libGl in their drivers. nouveau also has one. for removing nuoveau and it's libGl we should purge Xserver and then reinstall it with Intel driver.</p>
+<p>Second Step:</p>
+<pre class="literal-block">
+sudo apt-get remove --purge xserver-xorg
+sudo rm -fr /usr/lib/xorg/modules*
+sudo apt-get install xserver-xorg
+sudo apt-get install xserver-xorg-video-intel
+sudo dpkg-reconfigure xserver-xorg
+</pre>
+<p>in My case because i did some trial and error the operating system could not find libGl. by using Find Command i found its path. this library belonged to libgl1-mesa-glx package i recommend you to reinstall it.</p>
+<p>Step 3:</p>
+<pre class="literal-block">
+sudo apt-get install --reinstall libgl1-mesa-glx
+sudo ldconfig -v | grep -i libGl.so
+</pre>
+<p>Ok we are almost done. reboot your laptop and keep your finger crossed that you can connect to your desktop.</p>
+<p>if everything goes well and you are able to use your Desktop open a terminal and by using following command get sure nuoveau is not loaded</p>
+<pre class="literal-block">
+lsmod | grep -i nouveau
+</pre>
+<p>But if you was unable to connect your desktop,don't worry life is still going on. do the following commands to gather more information about the problem:</p>
+<pre class="literal-block">
+Alt+ctl+F4
+export DISPLAY=:0
+glxinfo
+</pre>
+<p>second command set your display to main display.and the next one give information about libGl.</p>
+<p>OK our first step is complete. Now Intel Driver is driving our display independently.</p>
+<p>But NVIDIA card is still powered on and ruining our battery. in the beginning of the post i talked about bumblebee. there is a module in this project named bbswitch. it is made for turning NVIDIA card on and off. you can install and use this module by using following commands:</p>
+<pre class="literal-block">
+sudo apt-get install bumblebee
+cat /proc/acpi/bbswitch
+(sample output: 0000:07:00.0 OFF)
+sudo tee /proc/acpi/bbswitch &lt;&lt;&lt; ON
+sudo tee /proc/acpi/bbswitch &lt;&lt;&lt; OFF
+</pre>
+<p>it is done. we saved our battery. in another post i will tell you how to enable CUDA by installing some part of NVIDIA closed source driver.</p>
+<p><strong>onething is still uncleard. what was wrong with WIFI? well, there were a lot of access point near me and all of them were working on 2.4GHz this</strong> <strong>caused a phenomena named frequency interference . for solving this problem i chose easiest solution , buying a dual band access point working on</strong> <strong>both 2.4 and 5 GHz.</strong></p>
+</div>
+    </div>
+    <aside class="postpromonav">
+    <nav>
+    
+        <ul itemprop="keywords" class="tags">
+           <li><a class="tag p-category" href="../categories/cpu.html" rel="tag">CPU</a></li>
+           <li><a class="tag p-category" href="../categories/freq.html" rel="tag">Freq</a></li>
+           <li><a class="tag p-category" href="../categories/interference.html" rel="tag">Interference</a></li>
+           <li><a class="tag p-category" href="../categories/bumblebee.html" rel="tag">bumblebee</a></li>
+           <li><a class="tag p-category" href="../categories/cuda.html" rel="tag">cuda</a></li>
+           <li><a class="tag p-category" href="../categories/driver.html" rel="tag">driver</a></li>
+           <li><a class="tag p-category" href="../categories/graphic.html" rel="tag">graphic</a></li>
+           <li><a class="tag p-category" href="../categories/haswell.html" rel="tag">haswell</a></li>
+           <li><a class="tag p-category" href="../categories/intel.html" rel="tag">intel</a></li>
+           <li><a class="tag p-category" href="../categories/laptops.html" rel="tag">laptops</a></li>
+           <li><a class="tag p-category" href="../categories/lenovo.html" rel="tag">lenovo</a></li>
+           <li><a class="tag p-category" href="../categories/libgl.html" rel="tag">libgl</a></li>
+           <li><a class="tag p-category" href="../categories/linux.html" rel="tag">linux</a></li>
+           <li><a class="tag p-category" href="../categories/nouveau.html" rel="tag">nouveau</a></li>
+           <li><a class="tag p-category" href="../categories/nvidia.html" rel="tag">nvidia</a></li>
+           <li><a class="tag p-category" href="../categories/optimus.html" rel="tag">optimus</a></li>
+           <li><a class="tag p-category" href="../categories/ubuntu.html" rel="tag">ubuntu</a></li>
+           <li><a class="tag p-category" href="../categories/z510.html" rel="tag">z510</a></li>
+        </ul>
+
+    
+        <ul class="pager">
+            <li class="previous">
+                <a href="2_nikola_blogging.html" rel="prev" title="How is this Blog  Made?">Previous post</a>
+            </li>
+        </ul>
+
+    </nav>
+    </aside>
+        <section class="comments">
+        <h2>Comments</h2>
+        
+        
+        <div id="disqus_thread"></div>
+        <script>
+        var disqus_shortname ="whiletruebefree",
+            disqus_url="http://whiletruebefree.net/en/posts/3_nvidia_laptops.html",
+        disqus_title="I , Linux and NVIDIA",
+        disqus_identifier="cache/posts/3_IandLinuxandNvidia.html",
+        disqus_config = function () {
+            this.language = "en";
+        };
+        (function() {
+            var dsq = document.createElement('script'); dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+</noscript>
+    <a href="//disqus.com" class="dsq-brlink" rel="nofollow">Comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+        </section>
+    
+
+</article>
+
+        
+       <script>var disqus_shortname="whiletruebefree";(function(){var a=document.createElement("script");a.async=true;a.src="//"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script>
+
+
+
+        </div>
+        <!--End of body content-->
+
+        <footer>
+            Contents © 2014         <a href="mailto:whiletruebefree@gmail.com">Sadegh Solati</a> - Powered by         <a href="http://getnikola.com" rel="nofollow">Nikola</a>         
+            
+        </footer>
+    </div>
+</div>
+
+
+            <script src="../../assets/js/jquery.min.js"></script>
+            <script src="../../assets/js/bootstrap.min.js"></script>
+            <script src="../../assets/js/moment-with-locales.min.js"></script>
+            <script src="../../assets/js/fancydates.js"></script>
+        <script src="../../assets/js/jquery.colorbox-min.js"></script>
+    
+<!-- Social buttons -->
+<div id="addthisbox" class="addthis_toolbox addthis_peekaboo_style addthis_default_style addthis_label_style addthis_32x32_style">
+<a class="addthis_button_more">Share</a>
+<ul>
+<li>
+<a class="addthis_button_facebook"></a>
+</li>
+<li>
+<a class="addthis_button_google_plusone_share"></a>
+</li>
+<li>
+<a class="addthis_button_linkedin"></a>
+</li>
+<li>
+<a class="addthis_button_twitter"></a>
+</li>
+</ul>
+</div>
+<script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4f7088a56bb93798"></script>
+<!-- End of social buttons -->
+
+
+    <script>jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script>
+    <!-- fancy dates -->
+    <script>
+    moment.locale("");
+    fancydates(0, "YYYY-MM-DD HH:mm");
+    </script>
+    <!-- end fancy dates -->
+    
+
+
+</body>
+</html>
