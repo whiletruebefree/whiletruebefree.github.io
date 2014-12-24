@@ -6,7 +6,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://whiletruebefree.net/2014/12/index.html</loc>
-  <lastmod>2014-12-23</lastmod>
+  <lastmod>2014-12-24</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/2014/index.html</loc>
@@ -182,7 +182,7 @@
  </url>
  <url>
   <loc>http://whiletruebefree.net/en/2014/12/index.html</loc>
-  <lastmod>2014-12-23</lastmod>
+  <lastmod>2014-12-24</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/en/2014/index.html</loc>
@@ -370,7 +370,7 @@
  </url>
  <url>
   <loc>http://whiletruebefree.net/en/index.html</loc>
-  <lastmod>2014-12-23</lastmod>
+  <lastmod>2014-12-24</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/en/posts/1_start_point.html</loc>
@@ -383,6 +383,10 @@
  <url>
   <loc>http://whiletruebefree.net/en/posts/3_nvidia_laptops.html</loc>
   <lastmod>2014-12-23</lastmod>
+ </url>
+ <url>
+  <loc>http://whiletruebefree.net/en/posts/what_is_thread.html</loc>
+  <lastmod>2014-12-24</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/galleries/TitleImages/index.html</loc>

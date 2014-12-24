@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# ">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>What is Thread ? | While(True) BeFree();</title>
+
+    
+            <link href="../../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="../../assets/css/rst.css" rel="stylesheet" type="text/css">
+        <link href="../../assets/css/code.css" rel="stylesheet" type="text/css">
+        <link href="../../assets/css/colorbox.css" rel="stylesheet" type="text/css">
+
+        <link href="../../assets/css/theme.css" rel="stylesheet" type="text/css">
+
+    
+
+      <link rel="canonical" href="http://whiletruebefree.net/en/posts/what_is_thread.html">
+
+
+
+
+    
+        <!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]-->
+
+    <script>  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');  ga('create', 'UA-57812635-1', 'auto');  ga('send', 'pageview');</script>
+
+
+    
+
+    <meta name="author" content="Sadegh Solati">
+        <link rel="prev" href="3_nvidia_laptops.html" title="I , Linux and NVIDIA" type="text/html">
+    
+    <meta property="og:site_name" content="While(True) BeFree();">
+    <meta property="og:title" content="What is Thread ?">
+    <meta property="og:url" content="http://whiletruebefree.net/en/posts/what_is_thread.html">
+    <meta property="og:description" content="it's a few day i have started learning cuda. because of that i am studying Electrical Engineering (EE) in university,i have a problem with understanding what is a thread and how it can increase speed ">
+    <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2014-12-21T17:06:27+03:30">
+
+    
+
+    
+
+
+
+</head>
+<body>
+<a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+
+<!-- Menubar -->
+
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+<!-- This keeps the margins nice -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://whiletruebefree.net/">
+
+                <span id="blog-title">While(True) BeFree();</span>
+            </a>
+        </div>
+<!-- /.navbar-header -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                
+                <li>
+<a href="../archive.html">Archive</a>
+                </li>
+<li>
+<a href="../categories/index.html">Tags</a>
+
+                
+            </li>
+</ul>
+                
+	<!-- Custom search with Google-->
+	<form id="search" action="//www.google.com/search" method="get" class="navbar-form pull-left">
+	<input type="hidden" name="q" value="site:http://whiletruebefree.net/">
+	<input type="text" name="q" maxlength="255" results="0" placeholder="Search">
+	</form>
+ 	<!-- End of custom search -->
+	
+
+            <ul class="nav navbar-nav navbar-right">
+                
+                    <li>
+            </li>
+<li><a href="../../index.html" rel="alternate" hreflang="fa">فارسی</a></li>
+
+                
+                
+            </ul>
+        </div>
+<!-- /.navbar-collapse -->
+    </div>
+<!-- /.container -->
+</nav>
+
+<!-- End of Menubar -->
+
+<div class="container" id="content">
+    <div class="body-content">
+        <!--Body content-->
+        <div class="row">
+            
+            
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article">
+    
+    <header>
+        
+    <h1 class="p-name entry-title" itemprop="headline name"><a href="#" class="u-url">What is Thread ?</a></h1>
+
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">Sadegh Solati</span></p>
+            <p class="dateline"><a href="#" rel="bookmark"><time class="published dt-published" datetime="2014-12-21T17:06:27+03:30" itemprop="datePublished" title="2014-12-21 17:06">2014-12-21 17:06</time></a></p>
+                <p class="commentline">
+        
+    <a href="what_is_thread.html#disqus_thread" data-disqus-identifier="cache/posts/4_what_is_thread .en.html">Comments</a>
+
+
+            
+
+        </p>
+</div>
+        
+        <div class="metadata posttranslations translations">
+            <h3 class="posttranslations-intro">Also available in:</h3>
+        </div>
+
+    </header>
+
+    <div class="e-content entry-content" itemprop="articleBody text">
+    <div>
+<p>it's a few day i have started learning cuda. because of that i am studying Electrical Engineering (EE) in university,i have a problem with understanding what is a thread and how it can increase speed of execution in a process. i did a short research and its result became the following.</p>
+<p>in EE we have a manner for getting information about a modern and complex system. for understanding how a system is working take a look at its old models when every thing had been bigger and the technology wasn't progressed enough for making everything on one chip. I think this manner aslo works in computer science.</p>
+<p>in first i will talk about a simple single core system and then multi core one and at last we will talk about thread.</p>
+<!-- TEASER_END -->
+<div class="section" id="a-simple-single-core-system">
+<h2>A simple single core System</h2>
+<p>i know this that every single core can execute just onething in a unit of time and i also knew that one of the operating system jobs is controlling multitasking. when you are reading this post maybe a music is playing  on your computer,you are downloading this file, and following text of this post with your mouse pointer. i said a CPU can only do one thing in a unit of a time. but right now you are doing multi taskes in the same time without any interruption and it seems they are executing in the same time.</p>
+<p>the mystery of this event is in using <strong>Time Multiplexing</strong> (in operating system it is named scheduling). Time multiplexing have a lot of applications in EE. what is time multiplexing in plain English?</p>
+<p>let's me give you an example for making it more clear. imagine there are two people in a room and the have one book. both of them want to read the book. consider they read with the same speed and it takes one hour to read the book each.</p>
+<p>they can do it in some ways :</p>
+<p>1- the first one starts reading and after one hour passes the book to second one.during the time which one of them is reading the other one will do nothing and waits. in this way in total it takes two hours to read the book.</p>
+<p>2- the first one starts reading and after a while for example one minute pass the book to another one. by using this way still in each unit of time one person is reading the book.in total it takes two hours but both of them will finish reading it together. in this way they are reading in parallel. but it's not really parallel there is a one minute IDLE time.</p>
+<p>3- now let's increase switching speed to 1000 times per second. in this mode both of them will finish reading the book in just one hour.</p>
+<p>why does it takes one hour less? speed of reading is still the same,and they have one book yet.</p>
+<p>in fact because of increasing the switching speed (1ms) they never mind that the book is not in front of them any more and they keep reading.</p>
+<p>in your computer CPU is the book and your music player and browser are those two person.
+همه تا حالا پنکه رو دیدیم، وقتی خاموشه پره ها از هم جدا هستند و فضای خالی بینشون مشخصه اما وقتی که  روشنش می کنیم  پره ها به شکل یک تکه دیده می شند. از دید شما وقتی پره ها در حال چرخش هستد اینطور به نظر میاد که انگار همه جا هستند.به همین دلیل هم هست که یک تکه دیده می شه.</p>
+<p>در داخل یک CPU تک هسته ای هم دقیقا همین اتفاق می افته.برنامه های مختلف در یک زمان بسیار کوتاه بر روی  CPU اجرا می شوند و سپس جای خودشون رو به یک برنامه دیگه می دهند.</p>
+<p>در کامپیوتر CPU همون کتاب و موزیک پلیر و  مرورگر شما همون دو نفر هستند.</p>
+<p>این جا یک سوال پیش میاد؟ اگر تعداد افرادی که قرار بود این کتاب رو همزمان بخونن هزار نفر بود چی ؟ خوندن تقریبا غیر ممکن بود . چرا؟ چون کتاب این لحظه زیر دست شماست یک میلی ثانیه دیگه دست نفر بعدی تا برسه دوباره به شما یک ثانیه طول می کشه.</p>
+</div>
+<div class="section" id="id1">
+<h2>سیستم های چند هسته ای</h2>
+<p>برای اینکه بتونیم به صورت واقعی چند عمل رو به صورت همزمان انجام بدیم CPU های چند هسته ای ساخته شدند. حالا دیگه سیستم عامل ها علاوه بر اختصاص بازه های زمانی استفاده از CPU به Proccess های مختلف می تونستند اونها روی هسته های مجزا نیز قرار دهند.این اتفاق باعث افزایش قدرت پردازشی برنامه ها میشه،چون منابعی بیشتری در اختیارشون هست.</p>
+<p><strong>هر Proccess فقط روی یک هسته اجرا می شه.</strong> فرض کنید که یک نرم افزاری داریم که می خواهیم قدرت پزدازش اش رو به حداکثر برسونیم.همچنین این نرم افزار برای پردازش موازی طراحی نشده باشد. اگر 100 هسته CPU هم داشتیم فایده ای نداشت. چون برنامه ما فقط می تونه از یک هسته اون استفاده کنه. حالا که نمی تونیم از چند هسته استفاده کنیم تنها راه باقی مانده اینه که فرکانس پردازشی CPU رو تا حد امکان بالا ببریم. اما این هم محدودیتی داره و الان فکر می کنم بیشترین مقدار حدود 4GHz باشه.</p>
+<p>اینجاست که مفهومی به نام Thread معنا پیدا می کنه. زمانی که CPU دارای ظرفیت خالی است و  ما می خواهیم از حداکثر توان پردازش استفاده کنیم.</p>
+<p>همینطور که می دونید CPU یک پردازشگر سریال است. یعنی این که دستورات را یکی یکی پشت سر هم دریافت و اجرا می کند.</p>
+<p>یک برنامه رو تصور کنید که یک ورودی از کاربر می گیره و بعد یک تابع بسیار طولانی روش اجرا می کنه و بعد خروجی رو نمایش دهد. در طول مدتی که برنامه در حال اجرای تابع است کار دیگری نمی تواند انجام دهد. برای مثال یک ورودی جدید بگیرد و این تابع را روی آن هم اجرا کند. اگر بخواهیم چنین کاری انجام دهیم باید از Thread استفاده کنیم.</p>
+<p>تابعی که قرار است بر روی وردی اجرا شود یک سری فرامین CPU هستند.هر بار که ما ورودی دریافت می کنیم یک <strong>کپی</strong> از دستورات این تابع ایجاد می کنیم و ورودی های برنامه را هم به عنوان متغییر به آن می دهیم و آن را  از بدنه اصلی برنامه جدا می کنیم. به این قسمتی که از بدنه اصلی برنامه جدا شده است یک  Thread گفته می شود.در اینجا برنامه می تواند دوباره به قسمت دریافت ورودی برگردد و یک درخواست دیگر را دریافت کند.</p>
+<p>همانطور که قبلا گفتیم <strong>هر proccess فقط بر روی یک CPU می تواند اجرا شود. اما سیستم عامل در تخصیص منابع با  Thread جدید هم به عنوان یک Proccess مجزا رفتار می کند.</strong> در این مثال یک قسمت از برنامه بر روی یک هسته و قسمت دیگری از آن بر روی یک هسته دیگر در حال اجراست .در اینجا پردازش موازی انجام خواهد شد و ما می توانیم از حداکثر  توان پردازشی CPU استفاده کنیم .
+در مثال بالا،خروجی تابعی که بر روی ورودی اول اجرا می شود. هیچ ربطی به ورودی دوم ندارد. پس لزومی وجود ندارد که شروع پردازش بر روی یک ورودی دیگر را به تمام شدن پردازش بر روی ورودی قبلی وابسته کنیم. به این اتفاق ** NON BLOCKING I/O ** گفته می شود و یک قانون کلی دارد. اونهم اینه که هیچ تابعی نباید برنامه رو معطل ورودی و خروجی نگه داره و باید کنترل رو بلافاصله به دستور بعدی بسپاره. یکی از روش های پیاده سازی این روش استفاده از Thread هست.</p>
+<p>همانطور که قبلا گفتیم سیستم عامل با سرعت بسیاری زیادی Proccess ها را رو بر روی CPU قرار می دهد.برای این کار سیستم عامل باید وضعیت هر Proccess را نگه دارد تا بداند آخرین بار تا کجا اجرا شده است تا در سری بعدی که بر روی CPU قرار می گیرد از همان جای قبلی پردازش انجام شود (تقریبا همان عمل جابه جا کردن کتاب در مثال قبلی). این عملیات یک زمانی از پردازنده رو به خودش اختصاص می ده. به این عمل CONTEXT SWITCH گفته می شود.حالا در نظر بگیرید که تعداد Thread ها بسیار زیاد باشد. تقریبا تمام وقت CPU صرف جا به جا کردن Thread ها می شه و عملکرد سیستم به شدت افت می کنه.</p>
+</div>
+<div class="section" id="thread">
+<h2>مزایا و معایب Thread</h2>
+<blockquote>
+<dl class="docutils">
+<dt>مزایا:</dt>
+<dd>
+<ul class="first last simple">
+<li>امکان استفاده حداکثری از ظرفیت CPU</li>
+<li>NON BLOCKING IO</li>
+</ul>
+</dd>
+<dt>معایب:</dt>
+<dd>
+<ul class="first last simple">
+<li>پیچیدگی در پیاده سازی برنامه مخصوصا زمانی که Thread ها باید روی یک داده مشترک کار کنند (Race condition).</li>
+<li>مشکل زیاد شدن CONTEXT SWITCH</li>
+</ul>
+</dd>
+</dl>
+</blockquote>
+<p>همانطور که در بالا مقایسه کردیم می بینیم که Thread امکانات بسیار زیادی برامون فراهم می کنه اما به شرطی که ازش درست استفاده کنیم.</p>
+</div>
+</div>
+    </div>
+    <aside class="postpromonav">
+    <nav>
+    
+
+    
+        <ul class="pager">
+            <li class="previous">
+                <a href="3_nvidia_laptops.html" rel="prev" title="I , Linux and NVIDIA">Previous post</a>
+            </li>
+        </ul>
+
+    </nav>
+    </aside>
+        <section class="comments">
+        <h2>Comments</h2>
+        
+        
+        <div id="disqus_thread"></div>
+        <script>
+        var disqus_shortname ="whiletruebefree",
+            disqus_url="http://whiletruebefree.net/en/posts/what_is_thread.html",
+        disqus_title="What is Thread ?",
+        disqus_identifier="cache/posts/4_what_is_thread .en.html",
+        disqus_config = function () {
+            this.language = "en";
+        };
+        (function() {
+            var dsq = document.createElement('script'); dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+</noscript>
+    <a href="//disqus.com" class="dsq-brlink" rel="nofollow">Comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+        </section>
+    
+
+</article>
+
+        
+       <script>var disqus_shortname="whiletruebefree";(function(){var a=document.createElement("script");a.async=true;a.src="//"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script>
+
+
+
+        </div>
+        <!--End of body content-->
+
+        <footer>
+            Contents © 2014         <a href="mailto:whiletruebefree@gmail.com">Sadegh Solati</a> - Powered by         <a href="http://getnikola.com" rel="nofollow">Nikola</a>         
+            
+        </footer>
+    </div>
+</div>
+
+
+            <script src="../../assets/js/jquery.min.js"></script>
+            <script src="../../assets/js/bootstrap.min.js"></script>
+            <script src="../../assets/js/moment-with-locales.min.js"></script>
+            <script src="../../assets/js/fancydates.js"></script>
+        <script src="../../assets/js/jquery.colorbox-min.js"></script>
+    
+<!-- Social buttons -->
+<div id="addthisbox" class="addthis_toolbox addthis_peekaboo_style addthis_default_style addthis_label_style addthis_32x32_style">
+<a class="addthis_button_more">Share</a>
+<ul>
+<li>
+<a class="addthis_button_facebook"></a>
+</li>
+<li>
+<a class="addthis_button_google_plusone_share"></a>
+</li>
+<li>
+<a class="addthis_button_linkedin"></a>
+</li>
+<li>
+<a class="addthis_button_twitter"></a>
+</li>
+</ul>
+</div>
+<script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4f7088a56bb93798"></script>
+<!-- End of social buttons -->
+
+
+    <script>jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script>
+    <!-- fancy dates -->
+    <script>
+    moment.locale("");
+    fancydates(0, "YYYY-MM-DD HH:mm");
+    </script>
+    <!-- end fancy dates -->
+    
+
+
+</body>
+</html>
