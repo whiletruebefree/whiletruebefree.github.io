@@ -118,6 +118,18 @@
     </ul>
 
 <div id="gallery_container"></div>
+<noscript>
+<ul class="thumbnails">
+        <li>
+<a href="5_graph1.png" class="thumbnail image-reference" title="Graph1">
+            <img src="5_graph1.thumbnail.png" alt="Graph1"></a>
+        </li>
+<li>
+<a href="5_graph2.png" class="thumbnail image-reference" title="Graph2">
+            <img src="5_graph2.thumbnail.png" alt="Graph2"></a>
+</li>
+</ul>
+</noscript>
 
         </div>
         <!--End of body content-->
@@ -169,7 +181,7 @@
     
 <script src="../assets/js/flowr.plugin.js"></script>
 <script>
-jsonContent = [];
+jsonContent = [{"url": "5_graph1.png", "title": "Graph1", "size": {"h": 135, "w": 180}, "url_thumb": "5_graph1.thumbnail.png"}, {"url": "5_graph2.png", "title": "Graph2", "size": {"h": 135, "w": 180}, "url_thumb": "5_graph2.thumbnail.png"}];
 $("#gallery_container").flowr({
         data : jsonContent,
         height : 180*.6,

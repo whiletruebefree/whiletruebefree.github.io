@@ -6,7 +6,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://whiletruebefree.net/2014/12/index.html</loc>
-  <lastmod>2014-12-24</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/2014/index.html</loc>
@@ -18,7 +18,7 @@
  </url>
  <url>
   <loc>http://whiletruebefree.net/categories/analytics.html</loc>
-  <lastmod>2014-12-20</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/categories/blg.html</loc>
@@ -34,31 +34,35 @@
  </url>
  <url>
   <loc>http://whiletruebefree.net/categories/bumblebee.html</loc>
-  <lastmod>2014-12-20</lastmod>
+  <lastmod>2014-12-27</lastmod>
+ </url>
+ <url>
+  <loc>http://whiletruebefree.net/categories/chart.html</loc>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/categories/cms.html</loc>
-  <lastmod>2014-12-20</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/categories/cpu.html</loc>
-  <lastmod>2014-12-20</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/categories/cuda.html</loc>
-  <lastmod>2014-12-20</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/categories/disqus.html</loc>
-  <lastmod>2014-12-20</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/categories/driver.html</loc>
-  <lastmod>2014-12-20</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/categories/drywr.html</loc>
-  <lastmod>2014-12-20</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/categories/dynamic.html</loc>
@@ -66,75 +70,79 @@
  </url>
  <url>
   <loc>http://whiletruebefree.net/categories/freq.html</loc>
-  <lastmod>2014-12-20</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/categories/github.html</loc>
-  <lastmod>2014-12-20</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/categories/google.html</loc>
-  <lastmod>2014-12-20</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/categories/graphic.html</loc>
-  <lastmod>2014-12-20</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/categories/haswell.html</loc>
-  <lastmod>2014-12-20</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/categories/index.html</loc>
-  <lastmod>2014-12-20</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/categories/injection.html</loc>
-  <lastmod>2014-12-20</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/categories/intel.html</loc>
-  <lastmod>2014-12-20</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/categories/interference.html</loc>
-  <lastmod>2014-12-20</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/categories/joomla.html</loc>
-  <lastmod>2014-12-20</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/categories/laptops.html</loc>
-  <lastmod>2014-12-20</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/categories/lenovo.html</loc>
-  <lastmod>2014-12-20</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/categories/libgl.html</loc>
-  <lastmod>2014-12-20</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/categories/linux.html</loc>
-  <lastmod>2014-12-20</lastmod>
+  <lastmod>2014-12-27</lastmod>
+ </url>
+ <url>
+  <loc>http://whiletruebefree.net/categories/matplotlib.html</loc>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/categories/nikola.html</loc>
-  <lastmod>2014-12-20</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/categories/nouveau.html</loc>
-  <lastmod>2014-12-20</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/categories/nvidia.html</loc>
-  <lastmod>2014-12-20</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/categories/optimus.html</loc>
-  <lastmod>2014-12-20</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/categories/pwy.html</loc>
@@ -142,15 +150,19 @@
  </url>
  <url>
   <loc>http://whiletruebefree.net/categories/python.html</loc>
-  <lastmod>2014-12-18</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/categories/pytwn.html</loc>
   <lastmod>2014-12-18</lastmod>
  </url>
  <url>
+  <loc>http://whiletruebefree.net/categories/regex.html</loc>
+  <lastmod>2014-12-27</lastmod>
+ </url>
+ <url>
   <loc>http://whiletruebefree.net/categories/sql.html</loc>
-  <lastmod>2014-12-20</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/categories/static.html</loc>
@@ -162,7 +174,7 @@
  </url>
  <url>
   <loc>http://whiletruebefree.net/categories/ubuntu.html</loc>
-  <lastmod>2014-12-20</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/categories/wblg.html</loc>
@@ -170,7 +182,7 @@
  </url>
  <url>
   <loc>http://whiletruebefree.net/categories/wordpress.html</loc>
-  <lastmod>2014-12-20</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/categories/yst.html</loc>
@@ -178,11 +190,11 @@
  </url>
  <url>
   <loc>http://whiletruebefree.net/categories/z510.html</loc>
-  <lastmod>2014-12-20</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/en/2014/12/index.html</loc>
-  <lastmod>2014-12-24</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/en/2014/index.html</loc>
@@ -194,7 +206,7 @@
  </url>
  <url>
   <loc>http://whiletruebefree.net/en/categories/analytics.html</loc>
-  <lastmod>2014-12-20</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/en/categories/blg.html</loc>
@@ -210,31 +222,35 @@
  </url>
  <url>
   <loc>http://whiletruebefree.net/en/categories/bumblebee.html</loc>
-  <lastmod>2014-12-23</lastmod>
+  <lastmod>2014-12-27</lastmod>
+ </url>
+ <url>
+  <loc>http://whiletruebefree.net/en/categories/chart.html</loc>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/en/categories/cms.html</loc>
-  <lastmod>2014-12-20</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/en/categories/cpu.html</loc>
-  <lastmod>2014-12-23</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/en/categories/cuda.html</loc>
-  <lastmod>2014-12-23</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/en/categories/disqus.html</loc>
-  <lastmod>2014-12-20</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/en/categories/driver.html</loc>
-  <lastmod>2014-12-23</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/en/categories/drywr.html</loc>
-  <lastmod>2014-12-23</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/en/categories/dynamic.html</loc>
@@ -242,75 +258,79 @@
  </url>
  <url>
   <loc>http://whiletruebefree.net/en/categories/freq.html</loc>
-  <lastmod>2014-12-23</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/en/categories/github.html</loc>
-  <lastmod>2014-12-20</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/en/categories/google.html</loc>
-  <lastmod>2014-12-20</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/en/categories/graphic.html</loc>
-  <lastmod>2014-12-23</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/en/categories/haswell.html</loc>
-  <lastmod>2014-12-23</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/en/categories/index.html</loc>
-  <lastmod>2014-12-20</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/en/categories/injection.html</loc>
-  <lastmod>2014-12-20</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/en/categories/intel.html</loc>
-  <lastmod>2014-12-23</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/en/categories/interference.html</loc>
-  <lastmod>2014-12-23</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/en/categories/joomla.html</loc>
-  <lastmod>2014-12-20</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/en/categories/laptops.html</loc>
-  <lastmod>2014-12-23</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/en/categories/lenovo.html</loc>
-  <lastmod>2014-12-23</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/en/categories/libgl.html</loc>
-  <lastmod>2014-12-23</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/en/categories/linux.html</loc>
-  <lastmod>2014-12-23</lastmod>
+  <lastmod>2014-12-27</lastmod>
+ </url>
+ <url>
+  <loc>http://whiletruebefree.net/en/categories/matplotlib.html</loc>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/en/categories/nikola.html</loc>
-  <lastmod>2014-12-20</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/en/categories/nouveau.html</loc>
-  <lastmod>2014-12-23</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/en/categories/nvidia.html</loc>
-  <lastmod>2014-12-23</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/en/categories/optimus.html</loc>
-  <lastmod>2014-12-23</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/en/categories/pwy.html</loc>
@@ -318,15 +338,19 @@
  </url>
  <url>
   <loc>http://whiletruebefree.net/en/categories/python.html</loc>
-  <lastmod>2014-12-18</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/en/categories/pytwn.html</loc>
   <lastmod>2014-12-18</lastmod>
  </url>
  <url>
+  <loc>http://whiletruebefree.net/en/categories/regex.html</loc>
+  <lastmod>2014-12-27</lastmod>
+ </url>
+ <url>
   <loc>http://whiletruebefree.net/en/categories/sql.html</loc>
-  <lastmod>2014-12-20</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/en/categories/static.html</loc>
@@ -338,7 +362,7 @@
  </url>
  <url>
   <loc>http://whiletruebefree.net/en/categories/ubuntu.html</loc>
-  <lastmod>2014-12-23</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/en/categories/wblg.html</loc>
@@ -346,7 +370,7 @@
  </url>
  <url>
   <loc>http://whiletruebefree.net/en/categories/wordpress.html</loc>
-  <lastmod>2014-12-20</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/en/categories/yst.html</loc>
@@ -354,7 +378,7 @@
  </url>
  <url>
   <loc>http://whiletruebefree.net/en/categories/z510.html</loc>
-  <lastmod>2014-12-23</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/en/galleries/TitleImages/index.html</loc>
@@ -362,7 +386,7 @@
  </url>
  <url>
   <loc>http://whiletruebefree.net/en/galleries/index.html</loc>
-  <lastmod>2014-12-19</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/en/galleries/titleimages/index.html</loc>
@@ -370,7 +394,7 @@
  </url>
  <url>
   <loc>http://whiletruebefree.net/en/index.html</loc>
-  <lastmod>2014-12-24</lastmod>
+  <lastmod>2014-12-26</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/en/posts/1_start_point.html</loc>
@@ -386,7 +410,7 @@
  </url>
  <url>
   <loc>http://whiletruebefree.net/en/posts/what_is_thread.html</loc>
-  <lastmod>2014-12-24</lastmod>
+  <lastmod>2014-12-26</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/galleries/TitleImages/index.html</loc>
@@ -394,7 +418,7 @@
  </url>
  <url>
   <loc>http://whiletruebefree.net/galleries/index.html</loc>
-  <lastmod>2014-12-19</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/galleries/titleimages/index.html</loc>
@@ -402,11 +426,19 @@
  </url>
  <url>
   <loc>http://whiletruebefree.net/index.html</loc>
-  <lastmod>2014-12-23</lastmod>
+  <lastmod>2014-12-27</lastmod>
+ </url>
+ <url>
+  <loc>http://whiletruebefree.net/listings/5_graph.py.html</loc>
+  <lastmod>2014-12-27</lastmod>
+ </url>
+ <url>
+  <loc>http://whiletruebefree.net/listings/graph.py.html</loc>
+  <lastmod>2014-12-26</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/listings/index.html</loc>
-  <lastmod>2014-12-19</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
  <url>
   <loc>http://whiletruebefree.net/posts/1_start_point.html</loc>
@@ -425,6 +457,14 @@
   <lastmod>2014-12-23</lastmod>
  </url>
  <url>
+  <loc>http://whiletruebefree.net/posts/5_Counting_words_chart.html</loc>
+  <lastmod>2014-12-27</lastmod>
+ </url>
+ <url>
+  <loc>http://whiletruebefree.net/posts/matplotlib.html</loc>
+  <lastmod>2014-12-27</lastmod>
+ </url>
+ <url>
   <loc>http://whiletruebefree.net/posts/parallel-computing.html</loc>
   <lastmod>2014-12-23</lastmod>
  </url>
@@ -434,6 +474,6 @@
  </url>
  <url>
   <loc>http://whiletruebefree.net/posts/what_is_thread.html</loc>
-  <lastmod>2014-12-23</lastmod>
+  <lastmod>2014-12-27</lastmod>
  </url>
 </urlset>

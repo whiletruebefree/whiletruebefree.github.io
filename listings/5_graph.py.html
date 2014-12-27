@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="fa">
+    <head>
+    <meta charset="utf-8">
+    <meta name="description" content="5_graph.py">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>5_graph.py | While(True) BeFree();</title>
+
+    
+            <link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="../assets/css/rst.css" rel="stylesheet" type="text/css">
+        <link href="../assets/css/code.css" rel="stylesheet" type="text/css">
+        <link href="../assets/css/colorbox.css" rel="stylesheet" type="text/css">
+
+        <link href="../assets/css/theme.rtl.css" rel="stylesheet" type="text/css">
+
+    
+
+      <link rel="canonical" href="http://whiletruebefree.net/listings/5_graph.py.html">
+
+
+
+
+    
+        <!--[if lt IE 9]><script src="../assets/js/html5.js"></script><![endif]-->
+
+    <script>  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');  ga('create', 'UA-57812635-1', 'auto');  ga('send', 'pageview');</script>
+
+
+
+
+</head>
+<body>
+<a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+
+<!-- Menubar -->
+
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+<!-- This keeps the margins nice -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://whiletruebefree.net/">
+
+                <span id="blog-title">While(True) BeFree();</span>
+            </a>
+        </div>
+<!-- /.navbar-header -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                
+                <li>
+<a href="../archive.html">آرشیو</a>
+                </li>
+<li>
+<a href="../categories/index.html">برچسب‌ها</a>
+
+                
+            </li>
+</ul>
+                
+	<!-- Custom search with Google-->
+	<form id="search" action="//www.google.com/search" method="get" class="navbar-form pull-left">
+	<input type="hidden" name="q" value="site:http://whiletruebefree.net/">
+	<input type="text" name="q" maxlength="255" results="0" placeholder="Search">
+	</form>
+ 	<!-- End of custom search -->
+	
+
+            <ul class="nav navbar-nav navbar-right">
+                
+                    <li>
+            </li>
+<li><a href="../en/index.html" rel="alternate" hreflang="en">English</a></li>
+
+                
+                
+            </ul>
+        </div>
+<!-- /.navbar-collapse -->
+    </div>
+<!-- /.container -->
+</nav>
+
+<!-- End of Menubar -->
+
+<div class="container" id="content">
+    <div class="body-content">
+        <!--Body content-->
+        <div class="row">
+            
+            
+
+<nav class="breadcrumbs">
+<ul class="breadcrumb">
+        <li><a href=".">listings</a></li>
+        <li><a href="#">5_graph.py.html</a></li>
+</ul>
+</nav>
+
+    <table class="codetable"><tr>
+<td class="linenos"><div class="linenodiv"><pre><a href="#listings5_graphpy-1"> 1</a>
+<a href="#listings5_graphpy-2"> 2</a>
+<a href="#listings5_graphpy-3"> 3</a>
+<a href="#listings5_graphpy-4"> 4</a>
+<a href="#listings5_graphpy-5"> 5</a>
+<a href="#listings5_graphpy-6"> 6</a>
+<a href="#listings5_graphpy-7"> 7</a>
+<a href="#listings5_graphpy-8"> 8</a>
+<a href="#listings5_graphpy-9"> 9</a>
+<a href="#listings5_graphpy-10">10</a>
+<a href="#listings5_graphpy-11">11</a>
+<a href="#listings5_graphpy-12">12</a>
+<a href="#listings5_graphpy-13">13</a>
+<a href="#listings5_graphpy-14">14</a>
+<a href="#listings5_graphpy-15">15</a>
+<a href="#listings5_graphpy-16">16</a>
+<a href="#listings5_graphpy-17">17</a>
+<a href="#listings5_graphpy-18">18</a>
+<a href="#listings5_graphpy-19">19</a>
+<a href="#listings5_graphpy-20">20</a>
+<a href="#listings5_graphpy-21">21</a>
+<a href="#listings5_graphpy-22">22</a>
+<a href="#listings5_graphpy-23">23</a>
+<a href="#listings5_graphpy-24">24</a>
+<a href="#listings5_graphpy-25">25</a>
+<a href="#listings5_graphpy-26">26</a>
+<a href="#listings5_graphpy-27">27</a>
+<a href="#listings5_graphpy-28">28</a>
+<a href="#listings5_graphpy-29">29</a>
+<a href="#listings5_graphpy-30">30</a>
+<a href="#listings5_graphpy-31">31</a>
+<a href="#listings5_graphpy-32">32</a>
+<a href="#listings5_graphpy-33">33</a>
+<a href="#listings5_graphpy-34">34</a>
+<a href="#listings5_graphpy-35">35</a>
+<a href="#listings5_graphpy-36">36</a>
+<a href="#listings5_graphpy-37">37</a>
+<a href="#listings5_graphpy-38">38</a>
+<a href="#listings5_graphpy-39">39</a>
+<a href="#listings5_graphpy-40">40</a>
+<a href="#listings5_graphpy-41">41</a>
+<a href="#listings5_graphpy-42">42</a>
+<a href="#listings5_graphpy-43">43</a>
+<a href="#listings5_graphpy-44">44</a>
+<a href="#listings5_graphpy-45">45</a>
+<a href="#listings5_graphpy-46">46</a>
+<a href="#listings5_graphpy-47">47</a>
+<a href="#listings5_graphpy-48">48</a>
+<a href="#listings5_graphpy-49">49</a>
+<a href="#listings5_graphpy-50">50</a>
+<a href="#listings5_graphpy-51">51</a>
+<a href="#listings5_graphpy-52">52</a>
+<a href="#listings5_graphpy-53">53</a>
+<a href="#listings5_graphpy-54">54</a>
+<a href="#listings5_graphpy-55">55</a>
+<a href="#listings5_graphpy-56">56</a>
+<a href="#listings5_graphpy-57">57</a>
+<a href="#listings5_graphpy-58">58</a>
+<a href="#listings5_graphpy-59">59</a>
+<a href="#listings5_graphpy-60">60</a>
+<a href="#listings5_graphpy-61">61</a>
+<a href="#listings5_graphpy-62">62</a>
+<a href="#listings5_graphpy-63">63</a>
+<a href="#listings5_graphpy-64">64</a>
+<a href="#listings5_graphpy-65">65</a></pre></div></td>
+<td class="code">
+<pre class="code literal-block"><a name="listings5_graphpy-1"></a><span class="kn">from</span> <span class="nn">string</span> <span class="kn">import</span> <span class="n">lower</span>
+<a name="listings5_graphpy-2"></a><span class="kn">import</span> <span class="nn">re</span>
+<a name="listings5_graphpy-3"></a><span class="kn">from</span> <span class="nn">matplotlib</span> <span class="kn">import</span> <span class="n">pyplot</span>
+<a name="listings5_graphpy-4"></a><span class="kn">from</span> <span class="nn">matplotlib</span> <span class="kn">import</span> <span class="n">rcParams</span>
+<a name="listings5_graphpy-5"></a><span class="kn">from</span> <span class="nn">bidi.algorithm</span> <span class="kn">import</span> <span class="n">get_display</span>
+<a name="listings5_graphpy-6"></a><span class="kn">import</span> <span class="nn">arabic_reshaper</span>
+<a name="listings5_graphpy-7"></a><span class="c"># -*- coding: UTF-8 -*-</span>
+<a name="listings5_graphpy-8"></a><span class="n">holmes</span><span class="o">=</span><span class="nb">open</span><span class="p">(</span><span class="s">'big.txt'</span><span class="p">,</span><span class="n">mode</span><span class="o">=</span><span class="s">'r'</span><span class="p">)</span>  <span class="c"># file mored nazaremoon ro ba dastresi read baz mikonim</span>
+<a name="listings5_graphpy-9"></a>
+<a name="listings5_graphpy-10"></a>
+<a name="listings5_graphpy-11"></a><span class="n">notspecial</span><span class="o">=</span><span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="s">ur'(?![\u0621-\u063A\u0641-\u064A\u067E\u06A9\u0686</span><span class="se">\</span>
+<a name="listings5_graphpy-12"></a><span class="s">\u06CC\u0698\u06AF\u0660-\u0669\u200c\s]|[a-z0-9\s]).'</span><span class="p">,</span> <span class="n">re</span><span class="o">.</span><span class="n">UNICODE</span><span class="p">)</span>
+<a name="listings5_graphpy-13"></a>
+<a name="listings5_graphpy-14"></a><span class="c">#regex baraye match kardan har chizi be gheir az  tamami character haye farsi va englis</span>
+<a name="listings5_graphpy-15"></a>
+<a name="listings5_graphpy-16"></a>
+<a name="listings5_graphpy-17"></a><span class="n">i</span><span class="o">=</span><span class="mi">0</span>
+<a name="listings5_graphpy-18"></a><span class="n">word</span><span class="o">=</span><span class="p">{}</span>   <span class="c">#yek dictionary khali ijad mikonim</span>
+<a name="listings5_graphpy-19"></a><span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">holmes</span><span class="p">:</span>
+<a name="listings5_graphpy-20"></a>    <span class="n">line</span><span class="o">=</span><span class="n">lower</span><span class="p">(</span><span class="n">line</span><span class="p">)</span>    <span class="c">#horof bozorg english ro be koochak tabdil mikonim chon HOME==home</span>
+<a name="listings5_graphpy-21"></a>    <span class="n">line</span><span class="o">=</span><span class="nb">unicode</span><span class="p">(</span><span class="n">line</span><span class="p">,</span><span class="s">"utf-8"</span><span class="p">)</span>  <span class="c">#khat ro be unicode tabdil mikonim</span>
+<a name="listings5_graphpy-22"></a>    <span class="n">line</span><span class="o">=</span><span class="n">notspecial</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="s">' '</span><span class="p">,</span><span class="n">line</span><span class="p">)</span>   <span class="c">#har chizi ke dar regex match shod ba space jaygozin mikonim</span>
+<a name="listings5_graphpy-23"></a>    <span class="n">line</span><span class="o">=</span><span class="n">line</span><span class="o">.</span><span class="n">split</span><span class="p">()</span>               <span class="c"># khat ro tabdil be yek list mikonad ke shamel kalamt an khat ast</span>
+<a name="listings5_graphpy-24"></a>    <span class="n">length</span><span class="o">=</span><span class="nb">len</span><span class="p">(</span><span class="n">line</span><span class="p">)</span>                <span class="c">#tedad kalamat ra dar khat hesab mikonad</span>
+<a name="listings5_graphpy-25"></a>    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="n">length</span><span class="p">):</span>               <span class="c">#be ezaye har kalame         #</span>
+<a name="listings5_graphpy-26"></a>            <span class="k">if</span> <span class="n">line</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="ow">in</span> <span class="n">word</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>      <span class="c">#agar kalame ghablan dar dictionary bood</span>
+<a name="listings5_graphpy-27"></a>                <span class="n">word</span><span class="p">[</span><span class="n">line</span><span class="p">[</span><span class="n">i</span><span class="p">]]</span> <span class="o">+=</span> <span class="mi">1</span>          <span class="c">#yek vahed be tedadesh ezafe koon</span>
+<a name="listings5_graphpy-28"></a>            <span class="k">else</span><span class="p">:</span>                           <span class="c">#agar na</span>
+<a name="listings5_graphpy-29"></a>                <span class="n">word</span><span class="p">[</span><span class="n">line</span><span class="p">[</span><span class="n">i</span><span class="p">]]</span><span class="o">=</span><span class="mi">1</span>             <span class="c">#kalame jadid ro be dictionary ezafe koon va tedadesh ro bezar 1</span>
+<a name="listings5_graphpy-30"></a>
+<a name="listings5_graphpy-31"></a>
+<a name="listings5_graphpy-32"></a><span class="n">mostused</span><span class="o">=</span><span class="nb">sorted</span><span class="p">(</span><span class="n">word</span><span class="p">,</span><span class="n">key</span><span class="o">=</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">word</span><span class="p">[</span><span class="n">x</span><span class="p">]),</span><span class="n">reverse</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span> <span class="c">#dictionary word ro bar asas tedad tekrar moratab mikone\</span>
+<a name="listings5_graphpy-33"></a>                                                    <span class="c">#khroji yek list moratab shode az kalamt bar assas tedad tekrar</span>
+<a name="listings5_graphpy-34"></a>
+<a name="listings5_graphpy-35"></a>
+<a name="listings5_graphpy-36"></a><span class="n">y</span><span class="o">=</span><span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">20</span><span class="p">)</span>
+<a name="listings5_graphpy-37"></a><span class="n">mostused_rtl</span><span class="o">=</span><span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">20</span><span class="p">)</span>                                 
+<a name="listings5_graphpy-38"></a>
+<a name="listings5_graphpy-39"></a><span class="sd">"""</span>
+<a name="listings5_graphpy-40"></a><span class="sd">khate bala do ta list jadid ijad mikone y baraye negah dashtan tedad dafat tekrar </span>
+<a name="listings5_graphpy-41"></a><span class="sd">khate bat baraye negah dashtan halat sahih neveshte shodan kalamat farsi</span>
+<a name="listings5_graphpy-42"></a><span class="sd">"""</span>
+<a name="listings5_graphpy-43"></a>
+<a name="listings5_graphpy-44"></a><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">20</span><span class="p">):</span>
+<a name="listings5_graphpy-45"></a>    <span class="n">y</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">=</span><span class="n">word</span><span class="p">[</span><span class="n">mostused</span><span class="p">[</span><span class="n">i</span><span class="p">]]</span>         
+<a name="listings5_graphpy-46"></a>    <span class="n">mostused_rtl</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">arabic_reshaper</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="n">mostused</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+<a name="listings5_graphpy-47"></a>    <span class="n">mostused_rtl</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">=</span><span class="n">get_display</span><span class="p">(</span><span class="n">mostused_rtl</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+<a name="listings5_graphpy-48"></a>
+<a name="listings5_graphpy-49"></a><span class="sd">""" khotot bala 20 kalame aval ro az list moratab shode x mikhanad va tedada tekrar ra dar list y </span>
+<a name="listings5_graphpy-50"></a><span class="sd">gharar midahad  2khat badi kalamat ra baraye namayesh amade mikoonand"""</span>
+<a name="listings5_graphpy-51"></a>
+<a name="listings5_graphpy-52"></a><span class="c">#=================================================================================#</span>
+<a name="listings5_graphpy-53"></a>
+<a name="listings5_graphpy-54"></a><span class="n">y_len</span><span class="o">=</span><span class="nb">range</span><span class="p">(</span><span class="mi">19</span><span class="p">,</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+<a name="listings5_graphpy-55"></a>
+<a name="listings5_graphpy-56"></a><span class="n">rcParams</span><span class="p">[</span><span class="s">'font.family'</span><span class="p">]</span> <span class="o">=</span> <span class="s">'sans-serif'</span>
+<a name="listings5_graphpy-57"></a><span class="n">rcParams</span><span class="p">[</span><span class="s">'font.sans-serif'</span><span class="p">]</span> <span class="o">=</span> <span class="s">'DejaVu Sans'</span>
+<a name="listings5_graphpy-58"></a>
+<a name="listings5_graphpy-59"></a><span class="n">pyplot</span><span class="o">.</span><span class="n">yticks</span><span class="p">(</span><span class="n">y_len</span><span class="p">,</span><span class="n">mostused_rtl</span><span class="p">,</span><span class="n">ha</span><span class="o">=</span><span class="s">"right"</span><span class="p">)</span> 
+<a name="listings5_graphpy-60"></a>
+<a name="listings5_graphpy-61"></a><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">y_len</span><span class="p">:</span>
+<a name="listings5_graphpy-62"></a>    <span class="n">pyplot</span><span class="o">.</span><span class="n">text</span><span class="p">(</span><span class="n">y</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">/</span><span class="nb">int</span><span class="p">(</span><span class="mi">2</span><span class="p">),</span><span class="mi">19</span><span class="o">-</span><span class="n">i</span><span class="p">,</span><span class="nb">str</span><span class="p">(</span><span class="n">y</span><span class="p">[</span><span class="n">i</span><span class="p">]),</span><span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">,</span><span class="n">color</span><span class="o">=</span><span class="s">'white'</span><span class="p">,</span><span class="n">va</span><span class="o">=</span><span class="s">"center"</span><span class="p">,</span><span class="n">ha</span><span class="o">=</span><span class="s">"center"</span><span class="p">)</span>
+<a name="listings5_graphpy-63"></a>
+<a name="listings5_graphpy-64"></a><span class="n">axes</span><span class="o">=</span><span class="n">pyplot</span><span class="o">.</span><span class="n">barh</span><span class="p">(</span><span class="n">y_len</span><span class="p">,</span><span class="n">y</span><span class="p">,</span><span class="n">align</span><span class="o">=</span><span class="s">'center'</span><span class="p">)</span>
+<a name="listings5_graphpy-65"></a><span class="n">pyplot</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s">'example01.png'</span><span class="p">)</span>
+</pre>
+</td>
+</tr></table>
+
+        </div>
+        <!--End of body content-->
+
+        <footer>
+            Contents © 2014         <a href="mailto:whiletruebefree@gmail.com">Sadegh Solati</a> - Powered by         <a href="http://getnikola.com" rel="nofollow">Nikola</a>         
+            
+        </footer>
+    </div>
+</div>
+
+
+            <script src="../assets/js/jquery.min.js"></script>
+            <script src="../assets/js/bootstrap.min.js"></script>
+            <script src="../assets/js/moment-with-locales.min.js"></script>
+            <script src="../assets/js/fancydates.js"></script>
+        <script src="../assets/js/jquery.colorbox-min.js"></script>
+        <script src="../assets/js/colorbox-i18n/jquery.colorbox-fa.js"></script>
+    
+<!-- Social buttons -->
+<div id="addthisbox" class="addthis_toolbox addthis_peekaboo_style addthis_default_style addthis_label_style addthis_32x32_style">
+<a class="addthis_button_more">Share</a>
+<ul>
+<li>
+<a class="addthis_button_facebook"></a>
+</li>
+<li>
+<a class="addthis_button_google_plusone_share"></a>
+</li>
+<li>
+<a class="addthis_button_linkedin"></a>
+</li>
+<li>
+<a class="addthis_button_twitter"></a>
+</li>
+</ul>
+</div>
+<script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4f7088a56bb93798"></script>
+<!-- End of social buttons -->
+
+
+    <script>jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script>
+    <!-- fancy dates -->
+    <script>
+    moment.locale("fa");
+    fancydates(0, "YYYY-MM-DD HH:mm");
+    </script>
+    <!-- end fancy dates -->
+    
+
+
+</body>
+</html>
