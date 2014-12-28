@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="fa">
+    <head>
+    <meta charset="utf-8">
+    <meta name="description" content="5_graph.en.py">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>5_graph.en.py | While(True) BeFree();</title>
+
+    
+            <link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="../assets/css/rst.css" rel="stylesheet" type="text/css">
+        <link href="../assets/css/code.css" rel="stylesheet" type="text/css">
+        <link href="../assets/css/colorbox.css" rel="stylesheet" type="text/css">
+
+        <link href="../assets/css/theme.rtl.css" rel="stylesheet" type="text/css">
+
+    
+
+      <link rel="canonical" href="http://whiletruebefree.net/listings/5_graph.en.py.html">
+
+
+
+
+    
+        <!--[if lt IE 9]><script src="../assets/js/html5.js"></script><![endif]-->
+
+    <script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-57812635-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+<script type="text/javascript">
+var domainroot='whiletruebefree.net'
+function Gsitesearch(curobj){
+curobj.q.value='site:'+domainroot+' '+curobj.qfront.value}
+</script>
+
+
+
+
+</head>
+<body>
+<a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+
+<!-- Menubar -->
+
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+<!-- This keeps the margins nice -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://whiletruebefree.net/">
+
+                <span id="blog-title">While(True) BeFree();</span>
+            </a>
+        </div>
+<!-- /.navbar-header -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                
+                <li>
+<a href="../archive.html">آرشیو</a>
+                </li>
+<li>
+<a href="../categories/index.html">برچسب‌ها</a>
+
+                
+            </li>
+</ul>
+                <form action="http://www.google.com/search" method="get" onsubmit="Gsitesearch(this)" class="navbar-form pull-left">
+<input name="q" type="hidden"><input name="qfront" type="text" style="width: 180px"> <input type="submit" value="Search">
+</form>
+
+            <ul class="nav navbar-nav navbar-right">
+                
+                    <li>
+            </li>
+<li><a href="../en/index.html" rel="alternate" hreflang="en">English</a></li>
+
+                
+                
+            </ul>
+        </div>
+<!-- /.navbar-collapse -->
+    </div>
+<!-- /.container -->
+</nav>
+
+<!-- End of Menubar -->
+
+<div class="container" id="content">
+    <div class="body-content">
+        <!--Body content-->
+        <div class="row">
+            
+            
+
+<nav class="breadcrumbs">
+<ul class="breadcrumb">
+        <li><a href=".">listings</a></li>
+        <li><a href="#">5_graph.en.py.html</a></li>
+</ul>
+</nav>
+
+    <table class="codetable"><tr>
+<td class="linenos"><div class="linenodiv"><pre><a href="#listings5_graphenpy-1"> 1</a>
+<a href="#listings5_graphenpy-2"> 2</a>
+<a href="#listings5_graphenpy-3"> 3</a>
+<a href="#listings5_graphenpy-4"> 4</a>
+<a href="#listings5_graphenpy-5"> 5</a>
+<a href="#listings5_graphenpy-6"> 6</a>
+<a href="#listings5_graphenpy-7"> 7</a>
+<a href="#listings5_graphenpy-8"> 8</a>
+<a href="#listings5_graphenpy-9"> 9</a>
+<a href="#listings5_graphenpy-10">10</a>
+<a href="#listings5_graphenpy-11">11</a>
+<a href="#listings5_graphenpy-12">12</a>
+<a href="#listings5_graphenpy-13">13</a>
+<a href="#listings5_graphenpy-14">14</a>
+<a href="#listings5_graphenpy-15">15</a>
+<a href="#listings5_graphenpy-16">16</a>
+<a href="#listings5_graphenpy-17">17</a>
+<a href="#listings5_graphenpy-18">18</a>
+<a href="#listings5_graphenpy-19">19</a>
+<a href="#listings5_graphenpy-20">20</a>
+<a href="#listings5_graphenpy-21">21</a>
+<a href="#listings5_graphenpy-22">22</a>
+<a href="#listings5_graphenpy-23">23</a>
+<a href="#listings5_graphenpy-24">24</a>
+<a href="#listings5_graphenpy-25">25</a>
+<a href="#listings5_graphenpy-26">26</a>
+<a href="#listings5_graphenpy-27">27</a>
+<a href="#listings5_graphenpy-28">28</a>
+<a href="#listings5_graphenpy-29">29</a>
+<a href="#listings5_graphenpy-30">30</a>
+<a href="#listings5_graphenpy-31">31</a>
+<a href="#listings5_graphenpy-32">32</a>
+<a href="#listings5_graphenpy-33">33</a>
+<a href="#listings5_graphenpy-34">34</a>
+<a href="#listings5_graphenpy-35">35</a>
+<a href="#listings5_graphenpy-36">36</a>
+<a href="#listings5_graphenpy-37">37</a>
+<a href="#listings5_graphenpy-38">38</a>
+<a href="#listings5_graphenpy-39">39</a>
+<a href="#listings5_graphenpy-40">40</a>
+<a href="#listings5_graphenpy-41">41</a>
+<a href="#listings5_graphenpy-42">42</a>
+<a href="#listings5_graphenpy-43">43</a>
+<a href="#listings5_graphenpy-44">44</a>
+<a href="#listings5_graphenpy-45">45</a>
+<a href="#listings5_graphenpy-46">46</a>
+<a href="#listings5_graphenpy-47">47</a>
+<a href="#listings5_graphenpy-48">48</a>
+<a href="#listings5_graphenpy-49">49</a>
+<a href="#listings5_graphenpy-50">50</a>
+<a href="#listings5_graphenpy-51">51</a>
+<a href="#listings5_graphenpy-52">52</a>
+<a href="#listings5_graphenpy-53">53</a>
+<a href="#listings5_graphenpy-54">54</a>
+<a href="#listings5_graphenpy-55">55</a>
+<a href="#listings5_graphenpy-56">56</a>
+<a href="#listings5_graphenpy-57">57</a>
+<a href="#listings5_graphenpy-58">58</a>
+<a href="#listings5_graphenpy-59">59</a>
+<a href="#listings5_graphenpy-60">60</a>
+<a href="#listings5_graphenpy-61">61</a>
+<a href="#listings5_graphenpy-62">62</a></pre></div></td>
+<td class="code">
+<pre class="code literal-block"><a name="listings5_graphenpy-1"></a><span class="kn">from</span> <span class="nn">string</span> <span class="kn">import</span> <span class="n">lower</span>
+<a name="listings5_graphenpy-2"></a><span class="kn">import</span> <span class="nn">re</span>
+<a name="listings5_graphenpy-3"></a><span class="kn">from</span> <span class="nn">matplotlib</span> <span class="kn">import</span> <span class="n">pyplot</span>
+<a name="listings5_graphenpy-4"></a><span class="kn">from</span> <span class="nn">matplotlib</span> <span class="kn">import</span> <span class="n">rcParams</span>
+<a name="listings5_graphenpy-5"></a><span class="kn">from</span> <span class="nn">bidi.algorithm</span> <span class="kn">import</span> <span class="n">get_display</span>
+<a name="listings5_graphenpy-6"></a><span class="kn">import</span> <span class="nn">arabic_reshaper</span>
+<a name="listings5_graphenpy-7"></a>
+<a name="listings5_graphenpy-8"></a>
+<a name="listings5_graphenpy-9"></a><span class="n">holmes</span><span class="o">=</span><span class="nb">open</span><span class="p">(</span><span class="s">'big.txt'</span><span class="p">,</span><span class="n">mode</span><span class="o">=</span><span class="s">'r'</span><span class="p">)</span>  <span class="c"># Opening Our File with Read-only permission</span>
+<a name="listings5_graphenpy-10"></a>
+<a name="listings5_graphenpy-11"></a>
+<a name="listings5_graphenpy-12"></a><span class="n">notspecial</span><span class="o">=</span><span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="s">ur'(?![\u0621-\u063A\u0641-\u064A\u067E\u06A9\u0686</span><span class="se">\</span>
+<a name="listings5_graphenpy-13"></a><span class="s">\u06CC\u0698\u06AF\u0660-\u0669\u200c\s]|[a-z0-9\s]).'</span><span class="p">,</span> <span class="n">re</span><span class="o">.</span><span class="n">UNICODE</span><span class="p">)</span>
+<a name="listings5_graphenpy-14"></a>
+<a name="listings5_graphenpy-15"></a><span class="c">#Compiling Our Regex.this contains all characters in Persian and English except SPECIAL ones</span>
+<a name="listings5_graphenpy-16"></a>
+<a name="listings5_graphenpy-17"></a>
+<a name="listings5_graphenpy-18"></a><span class="n">i</span><span class="o">=</span><span class="mi">0</span>
+<a name="listings5_graphenpy-19"></a><span class="n">word</span><span class="o">=</span><span class="p">{}</span>   <span class="c">#Creating an empty Dictionary</span>
+<a name="listings5_graphenpy-20"></a><span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">holmes</span><span class="p">:</span>     <span class="c">#reading a line from Our file</span>
+<a name="listings5_graphenpy-21"></a>    <span class="n">line</span><span class="o">=</span><span class="n">lower</span><span class="p">(</span><span class="n">line</span><span class="p">)</span>    <span class="c">#Converting all of the English Characters to lower Case HOME==home</span>
+<a name="listings5_graphenpy-22"></a>    <span class="n">line</span><span class="o">=</span><span class="nb">unicode</span><span class="p">(</span><span class="n">line</span><span class="p">,</span><span class="s">"utf-8"</span><span class="p">)</span>  <span class="c">#Converting the line to UTF-8 encoding</span>
+<a name="listings5_graphenpy-23"></a>    <span class="n">line</span><span class="o">=</span><span class="n">notspecial</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="s">' '</span><span class="p">,</span><span class="n">line</span><span class="p">)</span>   <span class="c">#Replacing all of the characters which are not in regex</span>
+<a name="listings5_graphenpy-24"></a>                                    <span class="c">#with space </span>
+<a name="listings5_graphenpy-25"></a>    <span class="n">line</span><span class="o">=</span><span class="n">line</span><span class="o">.</span><span class="n">split</span><span class="p">()</span>               <span class="c"># Converting the line to a list of words</span>
+<a name="listings5_graphenpy-26"></a>    <span class="n">length</span><span class="o">=</span><span class="nb">len</span><span class="p">(</span><span class="n">line</span><span class="p">)</span>                <span class="c"># Counting number of words in a line</span>
+<a name="listings5_graphenpy-27"></a>    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="n">length</span><span class="p">):</span>               <span class="c">#for each word in line         #</span>
+<a name="listings5_graphenpy-28"></a>            <span class="k">if</span> <span class="n">line</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="ow">in</span> <span class="n">word</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>      <span class="c">#If we have seen this word before</span>
+<a name="listings5_graphenpy-29"></a>                <span class="n">word</span><span class="p">[</span><span class="n">line</span><span class="p">[</span><span class="n">i</span><span class="p">]]</span> <span class="o">+=</span> <span class="mi">1</span>          <span class="c">#Increase it's counter one unit</span>
+<a name="listings5_graphenpy-30"></a>            <span class="k">else</span><span class="p">:</span>                           <span class="c">#if this first time we have seen this word</span>
+<a name="listings5_graphenpy-31"></a>                <span class="n">word</span><span class="p">[</span><span class="n">line</span><span class="p">[</span><span class="n">i</span><span class="p">]]</span><span class="o">=</span><span class="mi">1</span>             <span class="c">#Add the new word to the dictionary and set its count to 1</span>
+<a name="listings5_graphenpy-32"></a>
+<a name="listings5_graphenpy-33"></a>
+<a name="listings5_graphenpy-34"></a><span class="n">mostused</span><span class="o">=</span><span class="nb">sorted</span><span class="p">(</span><span class="n">word</span><span class="p">,</span><span class="n">key</span><span class="o">=</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">word</span><span class="p">[</span><span class="n">x</span><span class="p">]),</span><span class="n">reverse</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span> 
+<a name="listings5_graphenpy-35"></a><span class="c">#sorting the word dictionary based on number of occurrence </span>
+<a name="listings5_graphenpy-36"></a><span class="c">#its out put is a list of the words sorted based on number of their occurrence. </span>
+<a name="listings5_graphenpy-37"></a>
+<a name="listings5_graphenpy-38"></a>
+<a name="listings5_graphenpy-39"></a><span class="n">y</span><span class="o">=</span><span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">20</span><span class="p">)</span>           <span class="c">#Create an empty list and fill it with numbers 0...19 this list keeps words</span>
+<a name="listings5_graphenpy-40"></a><span class="n">mostused_rtl</span><span class="o">=</span><span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">20</span><span class="p">)</span>    <span class="c">#Create an empty list and fill it with numbers 0...19 keeps correct representation</span>
+<a name="listings5_graphenpy-41"></a>                            <span class="c">#of RTL Words                   </span>
+<a name="listings5_graphenpy-42"></a>
+<a name="listings5_graphenpy-43"></a><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">20</span><span class="p">):</span>
+<a name="listings5_graphenpy-44"></a>    <span class="n">y</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">=</span><span class="n">word</span><span class="p">[</span><span class="n">mostused</span><span class="p">[</span><span class="n">i</span><span class="p">]]</span>  <span class="c">#y[i] holds count of i th most used word          </span>
+<a name="listings5_graphenpy-45"></a>    <span class="n">mostused_rtl</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">arabic_reshaper</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="n">mostused</span><span class="p">[</span><span class="n">i</span><span class="p">])</span> 
+<a name="listings5_graphenpy-46"></a>    <span class="n">mostused_rtl</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">=</span><span class="n">get_display</span><span class="p">(</span><span class="n">mostused_rtl</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+<a name="listings5_graphenpy-47"></a>
+<a name="listings5_graphenpy-48"></a>
+<a name="listings5_graphenpy-49"></a><span class="c">#=================================================================================#</span>
+<a name="listings5_graphenpy-50"></a>
+<a name="listings5_graphenpy-51"></a><span class="n">y_len</span><span class="o">=</span><span class="nb">range</span><span class="p">(</span><span class="mi">19</span><span class="p">,</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+<a name="listings5_graphenpy-52"></a>
+<a name="listings5_graphenpy-53"></a><span class="n">rcParams</span><span class="p">[</span><span class="s">'font.family'</span><span class="p">]</span> <span class="o">=</span> <span class="s">'sans-serif'</span>
+<a name="listings5_graphenpy-54"></a><span class="n">rcParams</span><span class="p">[</span><span class="s">'font.sans-serif'</span><span class="p">]</span> <span class="o">=</span> <span class="s">'DejaVu Sans'</span>
+<a name="listings5_graphenpy-55"></a>
+<a name="listings5_graphenpy-56"></a><span class="n">pyplot</span><span class="o">.</span><span class="n">yticks</span><span class="p">(</span><span class="n">y_len</span><span class="p">,</span><span class="n">mostused_rtl</span><span class="p">,</span><span class="n">ha</span><span class="o">=</span><span class="s">"right"</span><span class="p">)</span> 
+<a name="listings5_graphenpy-57"></a>
+<a name="listings5_graphenpy-58"></a><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">y_len</span><span class="p">:</span>
+<a name="listings5_graphenpy-59"></a>    <span class="n">pyplot</span><span class="o">.</span><span class="n">text</span><span class="p">(</span><span class="n">y</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">/</span><span class="nb">int</span><span class="p">(</span><span class="mi">2</span><span class="p">),</span><span class="mi">19</span><span class="o">-</span><span class="n">i</span><span class="p">,</span><span class="nb">str</span><span class="p">(</span><span class="n">y</span><span class="p">[</span><span class="n">i</span><span class="p">]),</span><span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">,</span><span class="n">color</span><span class="o">=</span><span class="s">'white'</span><span class="p">,</span><span class="n">va</span><span class="o">=</span><span class="s">"center"</span><span class="p">,</span><span class="n">ha</span><span class="o">=</span><span class="s">"center"</span><span class="p">)</span>
+<a name="listings5_graphenpy-60"></a>
+<a name="listings5_graphenpy-61"></a><span class="n">axes</span><span class="o">=</span><span class="n">pyplot</span><span class="o">.</span><span class="n">barh</span><span class="p">(</span><span class="n">y_len</span><span class="p">,</span><span class="n">y</span><span class="p">,</span><span class="n">align</span><span class="o">=</span><span class="s">'center'</span><span class="p">)</span>
+<a name="listings5_graphenpy-62"></a><span class="n">pyplot</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s">'example01.png'</span><span class="p">)</span>
+</pre>
+</td>
+</tr></table>
+
+        </div>
+        <!--End of body content-->
+
+        <footer>
+            Contents © 2014         <a href="mailto:whiletruebefree@gmail.com">Sadegh Solati</a> - Powered by         <a href="http://getnikola.com" rel="nofollow">Nikola</a>         
+            
+        </footer>
+    </div>
+</div>
+
+
+            <script src="../assets/js/jquery.min.js"></script>
+            <script src="../assets/js/bootstrap.min.js"></script>
+            <script src="../assets/js/moment-with-locales.min.js"></script>
+            <script src="../assets/js/fancydates.js"></script>
+        <script src="../assets/js/jquery.colorbox-min.js"></script>
+        <script src="../assets/js/colorbox-i18n/jquery.colorbox-fa.js"></script>
+    
+<!-- Social buttons -->
+<div id="addthisbox" class="addthis_toolbox addthis_peekaboo_style addthis_default_style addthis_label_style addthis_32x32_style">
+<a class="addthis_button_more">Share</a>
+<ul>
+<li>
+<a class="addthis_button_facebook"></a>
+</li>
+<li>
+<a class="addthis_button_google_plusone_share"></a>
+</li>
+<li>
+<a class="addthis_button_linkedin"></a>
+</li>
+<li>
+<a class="addthis_button_twitter"></a>
+</li>
+</ul>
+</div>
+<script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4f7088a56bb93798"></script>
+<!-- End of social buttons -->
+
+
+    <script>jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script>
+    <!-- fancy dates -->
+    <script>
+    moment.locale("fa");
+    fancydates(0, "YYYY-MM-DD HH:mm");
+    </script>
+    <!-- end fancy dates -->
+    
+
+
+</body>
+</html>
